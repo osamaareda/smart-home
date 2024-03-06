@@ -1,0 +1,2841 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+[d frameptr 4065 ]
+"17 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\ECUAL/buzzer/buzzer.c
+[e E3030 . `uc
+LED_OFF 0
+LED_ON 1
+]
+"49
+[e E2965 . `uc
+LOW 0
+HIGH 1
+]
+"88 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\ECUAL/LCD/lcd.c
+[e E2965 . `uc
+LOW 0
+HIGH 1
+]
+"17 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\ECUAL/LED/led.c
+[e E3030 . `uc
+LED_OFF 0
+LED_ON 1
+]
+"49
+[e E2965 . `uc
+LOW 0
+HIGH 1
+]
+"30 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/ADC/adc.c
+[e E3030 . `uc
+LOW_PRIORITY 0
+HIGH_PRIORITY 1
+]
+[e E3049 . `uc
+ADC_0_TAD 0
+ADC_2_TAD 1
+ADC_4_TAD 2
+ADC_6_TAD 3
+ADC_8_TAD 4
+ADC_12_TAD 5
+ADC_16_TAD 6
+ADC_20_TAD 7
+]
+[e E3059 . `uc
+ADC_CONVERSION_CLOCK_FOSC_DIV_2 0
+ADC_CONVERSION_CLOCK_FOSC_DIV_8 1
+ADC_CONVERSION_CLOCK_FOSC_DIV_32 2
+ADC_CONVERSION_CLOCK_FOSC_DIV_FRC 3
+ADC_CONVERSION_CLOCK_FOSC_DIV_4 4
+ADC_CONVERSION_CLOCK_FOSC_DIV_16 5
+ADC_CONVERSION_CLOCK_FOSC_DIV_64 6
+]
+[e E3034 . `uc
+ADC_CHANNEL_AN0 0
+ADC_CHANNEL_AN1 1
+ADC_CHANNEL_AN2 2
+ADC_CHANNEL_AN3 3
+ADC_CHANNEL_AN4 4
+ADC_CHANNEL_AN5 5
+ADC_CHANNEL_AN6 6
+ADC_CHANNEL_AN7 7
+ADC_CHANNEL_AN8 8
+ADC_CHANNEL_AN9 9
+ADC_CHANNEL_AN10 10
+ADC_CHANNEL_AN11 11
+ADC_CHANNEL_AN12 12
+]
+"23 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/GPIO/gpio.c
+[e E2969 . `uc
+OUTPUT 0
+INPUT 1
+]
+"81
+[e E2965 . `uc
+LOW 0
+HIGH 1
+]
+"235
+[e E2983 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+"105 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/INTERRUPT/mcall_interrupt_manager.c
+[e E2965 . `uc
+LOW 0
+HIGH 1
+]
+"57 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/INTERRUPT/mcal_external_interrupt.c
+[e E3034 . `uc
+FALLING_EDGE 0
+RISING_EDGE 1
+]
+[e E3038 . `uc
+_INT0 0
+_INT1 1
+_INT2 2
+]
+[e E3030 . `uc
+LOW_PRIORITY 0
+HIGH_PRIORITY 1
+]
+"640
+[e E2973 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+"24 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/USART/usart.c
+[e E3034 . `uc
+BAUDRATE_ASYN_8BIT_lOW_SPEED 0
+BAUDRATE_ASYN_8BIT_HIGH_SPEED 1
+BAUDRATE_ASYN_16BIT_lOW_SPEED 2
+BAUDRATE_ASYN_16BIT_HIGH_SPEED 3
+BAUDRATE_SYN_8BIT 4
+BAUDRATE_SYN_16BIT 5
+]
+[e E3030 . `uc
+LOW_PRIORITY 0
+HIGH_PRIORITY 1
+]
+"67 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\mcc_generated_files/examples/i2c_master_example.c
+[e E355 . `uc
+I2C_NOERR 0
+I2C_BUSY 1
+I2C_FAIL 2
+]
+"68
+[e E360 . `uc
+I2C_STOP 1
+I2C_RESTART_READ 2
+I2C_RESTART_WRITE 3
+I2C_CONTINUE 4
+I2C_RESET_LINK 5
+]
+"146 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\mcc_generated_files/i2c_master.c
+[e E2863 . `uc
+I2C_IDLE 0
+I2C_SEND_ADR_READ 1
+I2C_SEND_ADR_WRITE 2
+I2C_TX 3
+I2C_RX 4
+I2C_RCEN 5
+I2C_TX_EMPTY 6
+I2C_SEND_RESTART_READ 7
+I2C_SEND_RESTART_WRITE 8
+I2C_SEND_RESTART 9
+I2C_SEND_STOP 10
+I2C_RX_ACK 11
+I2C_RX_NACK_STOP 12
+I2C_RX_NACK_RESTART 13
+I2C_RESET 14
+I2C_ADDRESS_NACK 15
+]
+"165
+[e E360 . `uc
+I2C_STOP 1
+I2C_RESTART_READ 2
+I2C_RESTART_WRITE 3
+I2C_CONTINUE 4
+I2C_RESET_LINK 5
+]
+[e E355 . `uc
+I2C_NOERR 0
+I2C_BUSY 1
+I2C_FAIL 2
+]
+"191
+[e E2881 . `uc
+I2C_DATA_COMPLETE 0
+I2C_WRITE_COLLISION 1
+I2C_ADDR_NACK 2
+I2C_DATA_NACK 3
+I2C_TIMEOUT 4
+I2C_NULL 5
+]
+"9 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\mcc_generated_files/init.c
+[e E3082 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E3072 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+"17
+[e E3178 . `uc
+LED_OFF 0
+LED_ON 1
+]
+"20
+[e E3213 . `uc
+FALLING_EDGE 0
+RISING_EDGE 1
+]
+[e E3217 . `uc
+_INT0 0
+_INT1 1
+_INT2 2
+]
+[e E3209 . `uc
+LOW_PRIORITY 0
+HIGH_PRIORITY 1
+]
+"42
+[e E3261 . `uc
+ADC_0_TAD 0
+ADC_2_TAD 1
+ADC_4_TAD 2
+ADC_6_TAD 3
+ADC_8_TAD 4
+ADC_12_TAD 5
+ADC_16_TAD 6
+ADC_20_TAD 7
+]
+[e E3271 . `uc
+ADC_CONVERSION_CLOCK_FOSC_DIV_2 0
+ADC_CONVERSION_CLOCK_FOSC_DIV_8 1
+ADC_CONVERSION_CLOCK_FOSC_DIV_32 2
+ADC_CONVERSION_CLOCK_FOSC_DIV_FRC 3
+ADC_CONVERSION_CLOCK_FOSC_DIV_4 4
+ADC_CONVERSION_CLOCK_FOSC_DIV_16 5
+ADC_CONVERSION_CLOCK_FOSC_DIV_64 6
+]
+[e E3246 . `uc
+ADC_CHANNEL_AN0 0
+ADC_CHANNEL_AN1 1
+ADC_CHANNEL_AN2 2
+ADC_CHANNEL_AN3 3
+ADC_CHANNEL_AN4 4
+ADC_CHANNEL_AN5 5
+ADC_CHANNEL_AN6 6
+ADC_CHANNEL_AN7 7
+ADC_CHANNEL_AN8 8
+ADC_CHANNEL_AN9 9
+ADC_CHANNEL_AN10 10
+ADC_CHANNEL_AN11 11
+ADC_CHANNEL_AN12 12
+]
+"51
+[e E3314 . `uc
+BAUDRATE_ASYN_8BIT_lOW_SPEED 0
+BAUDRATE_ASYN_8BIT_HIGH_SPEED 1
+BAUDRATE_ASYN_16BIT_lOW_SPEED 2
+BAUDRATE_ASYN_16BIT_HIGH_SPEED 3
+BAUDRATE_SYN_8BIT 4
+BAUDRATE_SYN_16BIT 5
+]
+"92 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\app.c
+[e E3209 . `uc
+LOW_PRIORITY 0
+HIGH_PRIORITY 1
+]
+[e E3261 . `uc
+ADC_0_TAD 0
+ADC_2_TAD 1
+ADC_4_TAD 2
+ADC_6_TAD 3
+ADC_8_TAD 4
+ADC_12_TAD 5
+ADC_16_TAD 6
+ADC_20_TAD 7
+]
+[e E3271 . `uc
+ADC_CONVERSION_CLOCK_FOSC_DIV_2 0
+ADC_CONVERSION_CLOCK_FOSC_DIV_8 1
+ADC_CONVERSION_CLOCK_FOSC_DIV_32 2
+ADC_CONVERSION_CLOCK_FOSC_DIV_FRC 3
+ADC_CONVERSION_CLOCK_FOSC_DIV_4 4
+ADC_CONVERSION_CLOCK_FOSC_DIV_16 5
+ADC_CONVERSION_CLOCK_FOSC_DIV_64 6
+]
+[e E3246 . `uc
+ADC_CHANNEL_AN0 0
+ADC_CHANNEL_AN1 1
+ADC_CHANNEL_AN2 2
+ADC_CHANNEL_AN3 3
+ADC_CHANNEL_AN4 4
+ADC_CHANNEL_AN5 5
+ADC_CHANNEL_AN6 6
+ADC_CHANNEL_AN7 7
+ADC_CHANNEL_AN8 8
+ADC_CHANNEL_AN9 9
+ADC_CHANNEL_AN10 10
+ADC_CHANNEL_AN11 11
+ADC_CHANNEL_AN12 12
+]
+"134
+[e E3178 . `uc
+LED_OFF 0
+LED_ON 1
+]
+"23
+[v _APP_INT0_ISR APP_INT0_ISR `(v  1 e 1 0 ]
+"45
+[v _APP_INT1_ISR APP_INT1_ISR `(v  1 e 1 0 ]
+"79
+[v _APP_INT2_ISR APP_INT2_ISR `(v  1 e 1 0 ]
+"91
+[v _MY_ADC_ISR MY_ADC_ISR `(v  1 e 1 0 ]
+"96
+[v _main main `(v  1 e 1 0 ]
+"1 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"72 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+"287
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+"1390
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"17 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\ECUAL/buzzer/buzzer.c
+[v _buzzer_init buzzer_init `(uc  1 e 1 0 ]
+"41
+[v _buzzer_on buzzer_on `(uc  1 e 1 0 ]
+"65
+[v _buzzer_off buzzer_off `(uc  1 e 1 0 ]
+"30 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\ECUAL/LCD/lcd.c
+[v _lcd_init lcd_init `(uc  1 e 1 0 ]
+"78
+[v _lcd_send_command lcd_send_command `(uc  1 e 1 0 ]
+"115
+[v _lcd_send_char_data lcd_send_char_data `(uc  1 e 1 0 ]
+"151
+[v _lcd_send_char_data_pos lcd_send_char_data_pos `(uc  1 e 1 0 ]
+"177
+[v _lcd_send_string lcd_send_string `(uc  1 e 1 0 ]
+"206
+[v _lcd_send_string_pos lcd_send_string_pos `(uc  1 e 1 0 ]
+"289
+[v _lcd_send_number_pos lcd_send_number_pos `(uc  1 e 1 0 ]
+"316
+[v _convert_uint8_to_string convert_uint8_to_string `(uc  1 e 1 0 ]
+"336
+[v _convert_uint16_to_string convert_uint16_to_string `(uc  1 e 1 0 ]
+"376
+[v _lcd_send_nbits lcd_send_nbits `(uc  1 s 1 lcd_send_nbits ]
+"388
+[v _lcd_send_enable lcd_send_enable `(uc  1 s 1 lcd_send_enable ]
+"400
+[v _lcd_set_curser lcd_set_curser `(uc  1 s 1 lcd_set_curser ]
+"14 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X/ECUAL/RealTimeClockDS1307/RealTimeClockDS1307.h
+[s S386 . 6 `uc 1 _Hours 1 0 `uc 1 _Minutes 1 1 `uc 1 _Seconds 1 2 `uc 1 _Year 1 3 `uc 1 _Month 1 4 `uc 1 _Day 1 5 ]
+"10 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\ECUAL/RealTimeClockDS1307/RealTimeClockDS1307.c
+[v _RealTimeClockDS1307_Get_Date_Time RealTimeClockDS1307_Get_Date_Time `(S386  1 e 6 0 ]
+"14 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X/ECUAL/RealTimeClockDS1307/RealTimeClockDS1307.h
+[s S386 . 6 `uc 1 _Hours 1 0 `uc 1 _Minutes 1 1 `uc 1 _Seconds 1 2 `uc 1 _Year 1 3 `uc 1 _Month 1 4 `uc 1 _Day 1 5 ]
+"10 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\ECUAL/RealTimeClockDS1307/RealTimeClockDS1307.c
+[v i2_RealTimeClockDS1307_Get_Date_Time RealTimeClockDS1307_Get_Date_Time `(S386  1 e 6 0 ]
+"21
+[v _convert_BCD_to_int convert_BCD_to_int `(v  1 e 1 0 ]
+"50
+[v _convert_int_to_BCD convert_int_to_BCD `(v  1 e 1 0 ]
+"30 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/ADC/adc.c
+[v _ADC_Init ADC_Init `(uc  1 e 1 0 ]
+"114
+[v _ADC_SelectChannel ADC_SelectChannel `(uc  1 e 1 0 ]
+"139
+[v _ADC_StartConversion ADC_StartConversion `(uc  1 e 1 0 ]
+"195
+[v _ADC_GetConversionResult ADC_GetConversionResult `(uc  1 e 1 0 ]
+"257
+[v _ADC_StartConversion_Interrupt ADC_StartConversion_Interrupt `(uc  1 e 1 0 ]
+"276
+[v _adc_input_channel_port_configure adc_input_channel_port_configure `(v  1 s 1 adc_input_channel_port_configure ]
+"299
+[v _select_result_format select_result_format `(v  1 s 1 select_result_format ]
+"311
+[v _configure_voltage_reference configure_voltage_reference `(v  1 s 1 configure_voltage_reference ]
+"322
+[v _ADC_ISR ADC_ISR `(v  1 e 1 0 ]
+"23 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/GPIO/gpio.c
+[v _gpio_pin_direction_init gpio_pin_direction_init `(uc  1 e 1 0 ]
+"81
+[v _gpio_pin_logic_write gpio_pin_logic_write `(uc  1 e 1 0 ]
+"138
+[v _gpio_pin_toggle_logic gpio_pin_toggle_logic `(uc  1 e 1 0 ]
+"161
+[v _gpio_pin_output_low_init gpio_pin_output_low_init `(uc  1 e 1 0 ]
+"211
+[v _gpio_pin_input_init gpio_pin_input_init `(uc  1 e 1 0 ]
+"57 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/INTERRUPT/mcal_external_interrupt.c
+[v _interrupt_INTx_init interrupt_INTx_init `(uc  1 e 1 0 ]
+"89
+[v _INT0_ISR INT0_ISR `(v  1 e 1 0 ]
+"98
+[v _INT1_ISR INT1_ISR `(v  1 e 1 0 ]
+"107
+[v _INT2_ISR INT2_ISR `(v  1 e 1 0 ]
+"139
+[v _interrupt_INTx_enable interrupt_INTx_enable `(uc  1 s 1 interrupt_INTx_enable ]
+"198
+[v _interrupt_INTx_disable interrupt_INTx_disable `(uc  1 s 1 interrupt_INTx_disable ]
+"233
+[v _interrupt_INTx_clear_flag interrupt_INTx_clear_flag `(uc  1 s 1 interrupt_INTx_clear_flag ]
+"304
+[v _interrupt_INTx_edge_init interrupt_INTx_edge_init `(uc  1 s 1 interrupt_INTx_edge_init ]
+"342
+[v _interrupt_INTx_pin_init interrupt_INTx_pin_init `(uc  1 s 1 interrupt_INTx_pin_init ]
+"361
+[v _INTx_select_InterruptHandler INTx_select_InterruptHandler `(uc  1 s 1 INTx_select_InterruptHandler ]
+"393
+[v _INT0_set_InterruptHandler INT0_set_InterruptHandler `(uc  1 s 1 INT0_set_InterruptHandler ]
+"413
+[v _INT1_set_InterruptHandler INT1_set_InterruptHandler `(uc  1 s 1 INT1_set_InterruptHandler ]
+"433
+[v _INT2_set_InterruptHandler INT2_set_InterruptHandler `(uc  1 s 1 INT2_set_InterruptHandler ]
+"481
+[v _RB4_ISR RB4_ISR `(v  1 e 1 0 ]
+"496
+[v _RB5_ISR RB5_ISR `(v  1 e 1 0 ]
+"511
+[v _RB6_ISR RB6_ISR `(v  1 e 1 0 ]
+"526
+[v _RB7_ISR RB7_ISR `(v  1 e 1 0 ]
+"564
+[v _interrupt_RBx_priority_init interrupt_RBx_priority_init `(uc  1 s 1 interrupt_RBx_priority_init ]
+"614
+[v _RBx_select_InterruptHandler RBx_select_InterruptHandler `(uc  1 s 1 RBx_select_InterruptHandler ]
+"91 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/INTERRUPT/mcall_interrupt_manager.c
+[v _InterruptManager InterruptManager `IIH(v  1 e 1 0 ]
+"24 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/USART/usart.c
+[v _EUSART_ASYNC_Init EUSART_ASYNC_Init `(uc  1 e 1 0 ]
+"57
+[v _EUSART_ASYNC_WriteByteBlocking EUSART_ASYNC_WriteByteBlocking `(uc  1 e 1 0 ]
+"78
+[v _EUSART_ASYNC_WriteByteNonBlocking EUSART_ASYNC_WriteByteNonBlocking `(uc  1 e 1 0 ]
+"136
+[v _EUSART_Baud_Rate_Calculation EUSART_Baud_Rate_Calculation `(v  1 s 1 EUSART_Baud_Rate_Calculation ]
+"181
+[v _EUSART_ASYNC_TX_Init EUSART_ASYNC_TX_Init `(v  1 s 1 EUSART_ASYNC_TX_Init ]
+"221
+[v _EUSART_ASYNC_RX_Init EUSART_ASYNC_RX_Init `(v  1 s 1 EUSART_ASYNC_RX_Init ]
+"266
+[v _EUSART_TX_ISR EUSART_TX_ISR `(v  1 e 1 0 ]
+"276
+[v _EUSART_RX_ISR EUSART_RX_ISR `(v  1 e 1 0 ]
+"63 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\mcc_generated_files/examples/i2c_master_example.c
+[v _I2C_Read1ByteRegister I2C_Read1ByteRegister `(uc  1 e 1 0 ]
+[v i2_I2C_Read1ByteRegister I2C_Read1ByteRegister `(uc  1 e 1 0 ]
+"91
+[v _I2C_Write1ByteRegister I2C_Write1ByteRegister `(v  1 e 1 0 ]
+[v i2_I2C_Write1ByteRegister I2C_Write1ByteRegister `(v  1 e 1 0 ]
+"142
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+[v i2_rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 i2_rd1RegCompleteHandler ]
+"149
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+[v i2_rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 i2_rd2RegCompleteHandler ]
+"156
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+[v i2_wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 i2_wr1RegCompleteHandler ]
+"163
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+[v i2_wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 i2_wr2RegCompleteHandler ]
+"170
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+[v i2_rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 i2_rdBlkRegCompleteHandler ]
+"167 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\mcc_generated_files/i2c_master.c
+[v _I2C_Initialize I2C_Initialize `(v  1 e 1 0 ]
+"176
+[v _I2C_Open I2C_Open `(E355  1 e 1 0 ]
+[v i2_I2C_Open I2C_Open `(E355  1 e 1 0 ]
+"209
+[v _I2C_Close I2C_Close `(E355  1 e 1 0 ]
+[v i2_I2C_Close I2C_Close `(E355  1 e 1 0 ]
+"224
+[v _I2C_MasterOperation I2C_MasterOperation `(E355  1 e 1 0 ]
+[v i2_I2C_MasterOperation I2C_MasterOperation `(E355  1 e 1 0 ]
+"246
+[v _I2C_MasterRead I2C_MasterRead `(E355  1 e 1 0 ]
+"251
+[v _I2C_MasterWrite I2C_MasterWrite `(E355  1 e 1 0 ]
+[v i2_I2C_MasterWrite I2C_MasterWrite `(E355  1 e 1 0 ]
+"263
+[v _I2C_SetBuffer I2C_SetBuffer `(v  1 e 1 0 ]
+[v i2_I2C_SetBuffer I2C_SetBuffer `(v  1 e 1 0 ]
+"273
+[v _I2C_SetDataCompleteCallback I2C_SetDataCompleteCallback `(v  1 e 1 0 ]
+[v i2_I2C_SetDataCompleteCallback I2C_SetDataCompleteCallback `(v  1 e 1 0 ]
+"283
+[v _I2C_SetAddressNackCallback I2C_SetAddressNackCallback `(v  1 e 1 0 ]
+[v i2_I2C_SetAddressNackCallback I2C_SetAddressNackCallback `(v  1 e 1 0 ]
+"298
+[v _I2C_SetCallback I2C_SetCallback `(v  1 s 1 I2C_SetCallback ]
+[v i2_I2C_SetCallback I2C_SetCallback `(v  1 s 1 i2_I2C_SetCallback ]
+"312
+[v _I2C_Poller I2C_Poller `(v  1 s 1 I2C_Poller ]
+[v i2_I2C_Poller I2C_Poller `(v  1 s 1 i2_I2C_Poller ]
+"321
+[v _I2C_MasterFsm I2C_MasterFsm `T(v  1 s 1 I2C_MasterFsm ]
+[v i2_I2C_MasterFsm I2C_MasterFsm `T(v  1 s 1 i2_I2C_MasterFsm ]
+"333
+[v _I2C_DO_IDLE I2C_DO_IDLE `(E2863  1 s 1 I2C_DO_IDLE ]
+[v i2_I2C_DO_IDLE I2C_DO_IDLE `(E2863  1 s 1 i2_I2C_DO_IDLE ]
+"340
+[v _I2C_DO_SEND_ADR_READ I2C_DO_SEND_ADR_READ `(E2863  1 s 1 I2C_DO_SEND_ADR_READ ]
+[v i2_I2C_DO_SEND_ADR_READ I2C_DO_SEND_ADR_READ `(E2863  1 s 1 i2_I2C_DO_SEND_ADR_READ ]
+"347
+[v _I2C_DO_SEND_ADR_WRITE I2C_DO_SEND_ADR_WRITE `(E2863  1 s 1 I2C_DO_SEND_ADR_WRITE ]
+[v i2_I2C_DO_SEND_ADR_WRITE I2C_DO_SEND_ADR_WRITE `(E2863  1 s 1 i2_I2C_DO_SEND_ADR_WRITE ]
+"354
+[v _I2C_DO_TX I2C_DO_TX `(E2863  1 s 1 I2C_DO_TX ]
+[v i2_I2C_DO_TX I2C_DO_TX `(E2863  1 s 1 i2_I2C_DO_TX ]
+"378
+[v _I2C_DO_RX I2C_DO_RX `(E2863  1 s 1 I2C_DO_RX ]
+[v i2_I2C_DO_RX I2C_DO_RX `(E2863  1 s 1 i2_I2C_DO_RX ]
+"402
+[v _I2C_DO_RCEN I2C_DO_RCEN `(E2863  1 s 1 I2C_DO_RCEN ]
+[v i2_I2C_DO_RCEN I2C_DO_RCEN `(E2863  1 s 1 i2_I2C_DO_RCEN ]
+"409
+[v _I2C_DO_TX_EMPTY I2C_DO_TX_EMPTY `(E2863  1 s 1 I2C_DO_TX_EMPTY ]
+[v i2_I2C_DO_TX_EMPTY I2C_DO_TX_EMPTY `(E2863  1 s 1 i2_I2C_DO_TX_EMPTY ]
+"450
+[v _I2C_DO_SEND_RESTART_READ I2C_DO_SEND_RESTART_READ `(E2863  1 s 1 I2C_DO_SEND_RESTART_READ ]
+[v i2_I2C_DO_SEND_RESTART_READ I2C_DO_SEND_RESTART_READ `(E2863  1 s 1 i2_I2C_DO_SEND_RESTART_READ ]
+"456
+[v _I2C_DO_SEND_RESTART_WRITE I2C_DO_SEND_RESTART_WRITE `(E2863  1 s 1 I2C_DO_SEND_RESTART_WRITE ]
+[v i2_I2C_DO_SEND_RESTART_WRITE I2C_DO_SEND_RESTART_WRITE `(E2863  1 s 1 i2_I2C_DO_SEND_RESTART_WRITE ]
+"463
+[v _I2C_DO_SEND_RESTART I2C_DO_SEND_RESTART `(E2863  1 s 1 I2C_DO_SEND_RESTART ]
+[v i2_I2C_DO_SEND_RESTART I2C_DO_SEND_RESTART `(E2863  1 s 1 i2_I2C_DO_SEND_RESTART ]
+"469
+[v _I2C_DO_SEND_STOP I2C_DO_SEND_STOP `(E2863  1 s 1 I2C_DO_SEND_STOP ]
+[v i2_I2C_DO_SEND_STOP I2C_DO_SEND_STOP `(E2863  1 s 1 i2_I2C_DO_SEND_STOP ]
+"475
+[v _I2C_DO_RX_ACK I2C_DO_RX_ACK `(E2863  1 s 1 I2C_DO_RX_ACK ]
+[v i2_I2C_DO_RX_ACK I2C_DO_RX_ACK `(E2863  1 s 1 i2_I2C_DO_RX_ACK ]
+"482
+[v _I2C_DO_RX_NACK_STOP I2C_DO_RX_NACK_STOP `(E2863  1 s 1 I2C_DO_RX_NACK_STOP ]
+[v i2_I2C_DO_RX_NACK_STOP I2C_DO_RX_NACK_STOP `(E2863  1 s 1 i2_I2C_DO_RX_NACK_STOP ]
+"488
+[v _I2C_DO_RX_NACK_RESTART I2C_DO_RX_NACK_RESTART `(E2863  1 s 1 I2C_DO_RX_NACK_RESTART ]
+[v i2_I2C_DO_RX_NACK_RESTART I2C_DO_RX_NACK_RESTART `(E2863  1 s 1 i2_I2C_DO_RX_NACK_RESTART ]
+"494
+[v _I2C_DO_RESET I2C_DO_RESET `(E2863  1 s 1 I2C_DO_RESET ]
+[v i2_I2C_DO_RESET I2C_DO_RESET `(E2863  1 s 1 i2_I2C_DO_RESET ]
+"500
+[v _I2C_DO_ADDRESS_NACK I2C_DO_ADDRESS_NACK `(E2863  1 s 1 I2C_DO_ADDRESS_NACK ]
+[v i2_I2C_DO_ADDRESS_NACK I2C_DO_ADDRESS_NACK `(E2863  1 s 1 i2_I2C_DO_ADDRESS_NACK ]
+"520
+[v _I2C_CallbackReturnStop I2C_CallbackReturnStop `(E360  1 e 1 0 ]
+[v i2_I2C_CallbackReturnStop I2C_CallbackReturnStop `(E360  1 e 1 0 ]
+"525
+[v _I2C_CallbackReturnReset I2C_CallbackReturnReset `(E360  1 e 1 0 ]
+[v i2_I2C_CallbackReturnReset I2C_CallbackReturnReset `(E360  1 e 1 0 ]
+"543
+[v _I2C_MasterOpen I2C_MasterOpen `T(a  1 s 1 I2C_MasterOpen ]
+[v i2_I2C_MasterOpen I2C_MasterOpen `T(a  1 s 1 i2_I2C_MasterOpen ]
+"557
+[v _I2C_MasterClose I2C_MasterClose `T(v  1 s 1 I2C_MasterClose ]
+[v i2_I2C_MasterClose I2C_MasterClose `T(v  1 s 1 i2_I2C_MasterClose ]
+"563
+[v _I2C_MasterGetRxData I2C_MasterGetRxData `T(uc  1 s 1 I2C_MasterGetRxData ]
+[v i2_I2C_MasterGetRxData I2C_MasterGetRxData `T(uc  1 s 1 i2_I2C_MasterGetRxData ]
+"568
+[v _I2C_MasterSendTxData I2C_MasterSendTxData `T(v  1 s 1 I2C_MasterSendTxData ]
+[v i2_I2C_MasterSendTxData I2C_MasterSendTxData `T(v  1 s 1 i2_I2C_MasterSendTxData ]
+"573
+[v _I2C_MasterEnableRestart I2C_MasterEnableRestart `T(v  1 s 1 I2C_MasterEnableRestart ]
+[v i2_I2C_MasterEnableRestart I2C_MasterEnableRestart `T(v  1 s 1 i2_I2C_MasterEnableRestart ]
+"578
+[v _I2C_MasterDisableRestart I2C_MasterDisableRestart `T(v  1 s 1 I2C_MasterDisableRestart ]
+"583
+[v _I2C_MasterStartRx I2C_MasterStartRx `T(v  1 s 1 I2C_MasterStartRx ]
+[v i2_I2C_MasterStartRx I2C_MasterStartRx `T(v  1 s 1 i2_I2C_MasterStartRx ]
+"588
+[v _I2C_MasterStart I2C_MasterStart `T(v  1 s 1 I2C_MasterStart ]
+[v i2_I2C_MasterStart I2C_MasterStart `T(v  1 s 1 i2_I2C_MasterStart ]
+"593
+[v _I2C_MasterStop I2C_MasterStop `T(v  1 s 1 I2C_MasterStop ]
+[v i2_I2C_MasterStop I2C_MasterStop `T(v  1 s 1 i2_I2C_MasterStop ]
+"598
+[v _I2C_MasterIsNack I2C_MasterIsNack `T(a  1 s 1 I2C_MasterIsNack ]
+[v i2_I2C_MasterIsNack I2C_MasterIsNack `T(a  1 s 1 i2_I2C_MasterIsNack ]
+"603
+[v _I2C_MasterSendAck I2C_MasterSendAck `T(v  1 s 1 I2C_MasterSendAck ]
+[v i2_I2C_MasterSendAck I2C_MasterSendAck `T(v  1 s 1 i2_I2C_MasterSendAck ]
+"609
+[v _I2C_MasterSendNack I2C_MasterSendNack `T(v  1 s 1 I2C_MasterSendNack ]
+[v i2_I2C_MasterSendNack I2C_MasterSendNack `T(v  1 s 1 i2_I2C_MasterSendNack ]
+"615
+[v _I2C_MasterClearBusCollision I2C_MasterClearBusCollision `T(v  1 s 1 I2C_MasterClearBusCollision ]
+"625
+[v _I2C_MasterEnableIrq I2C_MasterEnableIrq `T(v  1 s 1 I2C_MasterEnableIrq ]
+"635
+[v _I2C_MasterDisableIrq I2C_MasterDisableIrq `T(v  1 s 1 I2C_MasterDisableIrq ]
+[v i2_I2C_MasterDisableIrq I2C_MasterDisableIrq `T(v  1 s 1 i2_I2C_MasterDisableIrq ]
+"640
+[v _I2C_MasterClearIrq I2C_MasterClearIrq `T(v  1 s 1 I2C_MasterClearIrq ]
+[v i2_I2C_MasterClearIrq I2C_MasterClearIrq `T(v  1 s 1 i2_I2C_MasterClearIrq ]
+"645
+[v _I2C_MasterSetIrq I2C_MasterSetIrq `T(v  1 s 1 I2C_MasterSetIrq ]
+[v i2_I2C_MasterSetIrq I2C_MasterSetIrq `T(v  1 s 1 i2_I2C_MasterSetIrq ]
+"650
+[v _I2C_MasterWaitForEvent I2C_MasterWaitForEvent `T(v  1 s 1 I2C_MasterWaitForEvent ]
+[v i2_I2C_MasterWaitForEvent I2C_MasterWaitForEvent `T(v  1 s 1 i2_I2C_MasterWaitForEvent ]
+"59 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\mcc_generated_files/init.c
+[v __Initialize _Initialize `(v  1 e 1 0 ]
+[s S386 . 6 `uc 1 _Hours 1 0 `uc 1 _Minutes 1 1 `uc 1 _Seconds 1 2 `uc 1 _Year 1 3 `uc 1 _Month 1 4 `uc 1 _Day 1 5 ]
+"11 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\app.c
+[v _RTC1307 RTC1307 `VES386  1 e 6 0 ]
+"12
+[v _ALARM_RTC ALARM_RTC `VES386  1 e 6 0 ]
+"13
+[v _mode_counter mode_counter `VEuc  1 e 1 0 ]
+"14
+[v _option_counter option_counter `VEuc  1 e 1 0 ]
+"15
+[v _seconds_counter seconds_counter `VEuc  1 e 1 0 ]
+"16
+[v _minutes_counter minutes_counter `VEuc  1 e 1 0 ]
+"17
+[v _hours_counter hours_counter `VEuc  1 e 1 0 ]
+"18
+[v _day_counter day_counter `VEuc  1 e 1 0 ]
+"19
+[v _month_counter month_counter `VEuc  1 e 1 0 ]
+"20
+[v _year_counter year_counter `VEuc  1 e 1 0 ]
+"21
+[v _temp_var temp_var `uc  1 e 1 0 ]
+[v _adc_value adc_value `uc  1 e 1 0 ]
+"52 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4620.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"189
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+[s S1022 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"230
+[s S1031 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S1040 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S1049 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S1052 . 1 `S1022 1 . 1 0 `S1031 1 . 1 0 `S1040 1 . 1 0 `S1049 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES1052  1 e 1 @3969 ]
+"360
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"535
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"677
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"880
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"992
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1104
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"1216
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"1328
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"1380
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1602
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1824
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S1704 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1856
+[s S1713 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S1722 . 1 `S1704 1 . 1 0 `S1713 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES1722  1 e 1 @3988 ]
+"2046
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2268
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+[s S643 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 PSPIE 1 0 :1:7 
+]
+"2519
+[s S652 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+]
+[u S656 . 1 `S643 1 . 1 0 `S652 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES656  1 e 1 @3997 ]
+[s S564 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"2596
+[s S573 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[u S577 . 1 `S564 1 . 1 0 `S573 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES577  1 e 1 @3998 ]
+[s S2565 . 1 `uc 1 CCP2IF 1 0 :1:0 
+`uc 1 TMR3IF 1 0 :1:1 
+`uc 1 HLVDIF 1 0 :1:2 
+`uc 1 BCLIF 1 0 :1:3 
+`uc 1 EEIF 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CMIF 1 0 :1:6 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"2815
+[s S2574 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIF 1 0 :1:2 
+]
+[u S2577 . 1 `S2565 1 . 1 0 `S2574 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES2577  1 e 1 @4001 ]
+[s S1650 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"3061
+[s S1659 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S1662 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[s S1665 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S1668 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S1671 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S1673 . 1 `S1650 1 . 1 0 `S1659 1 . 1 0 `S1662 1 . 1 0 `S1665 1 . 1 0 `S1668 1 . 1 0 `S1671 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES1673  1 e 1 @4011 ]
+[s S1759 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"3269
+[s S1768 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S1777 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S1780 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S1782 . 1 `S1759 1 . 1 0 `S1768 1 . 1 0 `S1777 1 . 1 0 `S1780 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES1782  1 e 1 @4012 ]
+"3486
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"3498
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"3510
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"3522
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+[s S1847 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 TXCKP 1 0 :1:4 
+`uc 1 RXDTP 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"4015
+[s S1856 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 RXCKP 1 0 :1:5 
+`uc 1 RCMT 1 0 :1:6 
+]
+[s S1861 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 W4E 1 0 :1:1 
+]
+[u S1864 . 1 `S1847 1 . 1 0 `S1856 1 . 1 0 `S1861 1 . 1 0 ]
+[v _BAUDCONbits BAUDCONbits `VES1864  1 e 1 @4024 ]
+[s S531 . 1 `uc 1 ADCS 1 0 :3:0 
+`uc 1 ACQT 1 0 :3:3 
+`uc 1 . 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"4394
+[s S536 . 1 `uc 1 ADCS0 1 0 :1:0 
+`uc 1 ADCS1 1 0 :1:1 
+`uc 1 ADCS2 1 0 :1:2 
+`uc 1 ACQT0 1 0 :1:3 
+`uc 1 ACQT1 1 0 :1:4 
+`uc 1 ACQT2 1 0 :1:5 
+]
+[u S543 . 1 `S531 1 . 1 0 `S536 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES543  1 e 1 @4032 ]
+[s S688 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 VCFG 1 0 :2:4 
+]
+"4469
+[s S691 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+]
+[s S698 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+`uc 1 VCFG01 1 0 :1:4 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[u S703 . 1 `S688 1 . 1 0 `S691 1 . 1 0 `S698 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES703  1 e 1 @4033 ]
+[s S463 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"4573
+[s S466 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S470 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S477 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S480 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S483 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S486 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[s S489 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S492 . 1 `S463 1 . 1 0 `S466 1 . 1 0 `S470 1 . 1 0 `S477 1 . 1 0 `S480 1 . 1 0 `S483 1 . 1 0 `S486 1 . 1 0 `S489 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES492  1 e 1 @4034 ]
+"4655
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"4662
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"4669
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @4037 ]
+[s S2544 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"4686
+[u S2553 . 1 `S2544 1 . 1 0 ]
+[v _SSPCON2bits SSPCON2bits `VES2553  1 e 1 @4037 ]
+"4731
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+[s S2379 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"4751
+[s S2385 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S2390 . 1 `S2379 1 . 1 0 `S2385 1 . 1 0 ]
+[v _SSPCON1bits SSPCON1bits `VES2390  1 e 1 @4038 ]
+"4801
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+[s S2593 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"4877
+[s S2596 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S2599 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S2608 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S2613 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 A 1 0 :1:5 
+]
+[s S2618 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S2623 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S2628 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S2631 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S2634 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S2639 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+`uc 1 DA 1 0 :1:5 
+]
+[s S2645 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 NOT_A 1 0 :1:5 
+]
+[u S2650 . 1 `S2593 1 . 1 0 `S2596 1 . 1 0 `S2599 1 . 1 0 `S2608 1 . 1 0 `S2613 1 . 1 0 `S2618 1 . 1 0 `S2623 1 . 1 0 `S2628 1 . 1 0 `S2631 1 . 1 0 `S2634 1 . 1 0 `S2639 1 . 1 0 `S2645 1 . 1 0 ]
+[v _SSPSTATbits SSPSTATbits `VES2650  1 e 1 @4039 ]
+"5022
+[v _SSPADD SSPADD `VEuc  1 e 1 @4040 ]
+"5029
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+[s S974 . 1 `uc 1 INT1IF 1 0 :1:0 
+`uc 1 INT2IF 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 INT1IE 1 0 :1:3 
+`uc 1 INT2IE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 INT1IP 1 0 :1:6 
+`uc 1 INT2IP 1 0 :1:7 
+]
+"6239
+[s S983 . 1 `uc 1 INT1F 1 0 :1:0 
+`uc 1 INT2F 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 INT1E 1 0 :1:3 
+`uc 1 INT2E 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 INT1P 1 0 :1:6 
+`uc 1 INT2P 1 0 :1:7 
+]
+[u S992 . 1 `S974 1 . 1 0 `S983 1 . 1 0 ]
+[v _INTCON3bits INTCON3bits `VES992  1 e 1 @4080 ]
+[s S1322 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"6329
+[s S1325 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S1334 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S1337 . 1 `S1322 1 . 1 0 `S1325 1 . 1 0 `S1334 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES1337  1 e 1 @4081 ]
+[s S594 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6406
+[s S603 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S612 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S616 . 1 `S594 1 . 1 0 `S603 1 . 1 0 `S612 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES616  1 e 1 @4082 ]
+"55 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\doprnt.c
+[v _flags flags `i  1 s 2 flags ]
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"66
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"69
+[v _nout nout `i  1 s 2 nout ]
+"9 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\ECUAL/RealTimeClockDS1307/RealTimeClockDS1307.c
+[v _RTC1307@RealTimeClockDS1307$F399 RTC1307 `S386  1 s 6 RTC1307 ]
+"12 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/ADC/adc.c
+[v _ADC_InterruptHandler ADC_InterruptHandler `*.37(v  1 s 2 ADC_InterruptHandler ]
+"10 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/GPIO/gpio.c
+[v _trisx trisx `[5]*.39VEuc  1 e 10 0 ]
+"11
+[v _latx latx `[5]*.39VEuc  1 e 10 0 ]
+"12
+[v _portx portx `[5]*.39VEuc  1 e 10 0 ]
+"11 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/INTERRUPT/mcal_external_interrupt.c
+[v _INT0_InterruptHandler INT0_InterruptHandler `*.37(v  1 s 2 INT0_InterruptHandler ]
+"12
+[v _INT1_InterruptHandler INT1_InterruptHandler `*.37(v  1 s 2 INT1_InterruptHandler ]
+"13
+[v _INT2_InterruptHandler INT2_InterruptHandler `*.37(v  1 s 2 INT2_InterruptHandler ]
+"32
+[v _RB4_InterruptHandler_high RB4_InterruptHandler_high `*.37(v  1 s 2 RB4_InterruptHandler_high ]
+"33
+[v _RB4_InterruptHandler_low RB4_InterruptHandler_low `*.37(v  1 s 2 RB4_InterruptHandler_low ]
+"34
+[v _RB5_InterruptHandler_high RB5_InterruptHandler_high `*.37(v  1 s 2 RB5_InterruptHandler_high ]
+"35
+[v _RB5_InterruptHandler_low RB5_InterruptHandler_low `*.37(v  1 s 2 RB5_InterruptHandler_low ]
+"36
+[v _RB6_InterruptHandler_high RB6_InterruptHandler_high `*.37(v  1 s 2 RB6_InterruptHandler_high ]
+"37
+[v _RB6_InterruptHandler_low RB6_InterruptHandler_low `*.37(v  1 s 2 RB6_InterruptHandler_low ]
+"38
+[v _RB7_InterruptHandler_high RB7_InterruptHandler_high `*.37(v  1 s 2 RB7_InterruptHandler_high ]
+"39
+[v _RB7_InterruptHandler_low RB7_InterruptHandler_low `*.37(v  1 s 2 RB7_InterruptHandler_low ]
+"9 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/INTERRUPT/mcall_interrupt_manager.c
+[v _RB4_Flag RB4_Flag `VEuc  1 s 1 RB4_Flag ]
+[v _RB5_Flag RB5_Flag `VEuc  1 s 1 RB5_Flag ]
+[v _RB6_Flag RB6_Flag `VEuc  1 s 1 RB6_Flag ]
+[v _RB7_Flag RB7_Flag `VEuc  1 s 1 RB7_Flag ]
+"11 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/USART/usart.c
+[v _EUSART_TxInterruptHandler EUSART_TxInterruptHandler `*.37(v  1 s 2 EUSART_TxInterruptHandler ]
+"14
+[v _EUSART_RxInterruptHandler EUSART_RxInterruptHandler `*.37(v  1 s 2 EUSART_RxInterruptHandler ]
+"15
+[v _EUSART_FramingErrorHandler EUSART_FramingErrorHandler `*.37(v  1 s 2 EUSART_FramingErrorHandler ]
+"16
+[v _EUSART_OverrunErrorHandler EUSART_OverrunErrorHandler `*.37(v  1 s 2 EUSART_OverrunErrorHandler ]
+"146 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\mcc_generated_files/i2c_master.c
+[v _i2c_fsmStateTable i2c_fsmStateTable `C[16]*.37(E2863  1 e 32 0 ]
+[s S2353 . 36 `[6]*.37(E360 1 callbackTable 12 0 `[6]*.39v 1 callbackPayload 12 12 `us 1 time_out 2 24 `us 1 time_out_value 2 26 `uc 1 address 1 28 `*.39uc 1 data_ptr 2 29 `ui 1 data_length 2 31 `E2863 1 state 1 33 `E355 1 error 1 34 `uc 1 addressNackCheck 1 35 :1:0 
+`uc 1 busy 1 35 :1:1 
+`uc 1 inUse 1 35 :1:2 
+`uc 1 bufferFree 1 35 :1:3 
+]
+"165
+[v _I2C_Status I2C_Status `S2353  1 e 36 0 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"9 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\mcc_generated_files/init.c
+[s S100 . 6 `S24 1 lcd_rs 1 0 `S24 1 lcd_en 1 1 `[4]S24 1 lcd_pins 4 2 ]
+[v _lcd lcd `S100  1 e 6 0 ]
+"17
+[s S32 . 2 `S24 1 buzzer_pin 1 0 `E3030 1 buzzer_state 1 1 ]
+[v _buzzer buzzer `S32  1 e 2 0 ]
+"20
+[s S1234 . 6 `*.37(v 1 EXT_InterruptHandler 2 0 `S24 1 INTx_pin 1 2 `E3034 1 edge 1 3 `E3038 1 source 1 4 `E3030 1 priority 1 5 ]
+[v _MY_INT0 MY_INT0 `S1234  1 e 6 0 ]
+"27
+[v _MY_INT1 MY_INT1 `S1234  1 e 6 0 ]
+"34
+[v _MY_INT2 MY_INT2 `S1234  1 e 6 0 ]
+[s S454 . 7 `*.37(v 1 ADC_InterruptHandler 2 0 `E3030 1 priority 1 2 `E3049 1 acquisition_time 1 3 `E3059 1 conversion_clock 1 4 `E3034 1 adc_channel 1 5 `uc 1 voltage_reference 1 6 :1:0 
+`uc 1 result_format 1 6 :1:1 
+`uc 1 ADC_Reserved 1 6 :6:2 
+]
+"42
+[v _adc adc `S454  1 e 7 0 ]
+[s S1617 . 2 `E3030 1 usart_tx_int_priority 1 0 `uc 1 usart_tx_enable 1 1 :1:0 
+`uc 1 usart_tx_interrupt_enable 1 1 :1:1 
+`uc 1 usart_tx_9bit_enable 1 1 :1:2 
+`uc 1 usart_tx_reserved 1 1 :5:3 
+]
+"51
+[s S1623 . 2 `E3030 1 usart_rx_int_priority 1 0 `uc 1 usart_rx_enable 1 1 :1:0 
+`uc 1 usart_rx_interrupt_enable 1 1 :1:1 
+`uc 1 usart_rx_9bit_enable 1 1 :1:2 
+`uc 1 usart_rx_reserved 1 1 :5:3 
+]
+[s S1629 . 1 `uc 1 usart_tx_reserved 1 0 :6:0 
+`uc 1 usart_ferr 1 0 :1:6 
+`uc 1 usart_oerr 1 0 :1:7 
+]
+[u S1633 . 1 `S1629 1 . 1 0 `uc 1 status 1 0 ]
+[s S1640 . 16 `ui 1 baudrate 2 0 `E3034 1 baudrate_gen_gonfig 1 2 `S1617 1 usart_tx_cfg 2 3 `S1623 1 usart_rx_cfg 2 5 `S1633 1 error_status 1 7 `*.37(v 1 EUSART_TxDefaultInterruptHandler 2 8 `*.37(v 1 EUSART_RxDefaultInterruptHandler 2 10 `*.37(v 1 EUSART_FramingErrorHandler 2 12 `*.37(v 1 EUSART_OverrunErrorHandler 2 14 ]
+[v _uart uart `S1640  1 e 16 0 ]
+"96 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\app.c
+[v _main main `(v  1 e 1 0 ]
+{
+"211
+} 0
+"289 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\ECUAL/LCD/lcd.c
+[v _lcd_send_number_pos lcd_send_number_pos `(uc  1 e 1 0 ]
+{
+"296
+[v lcd_send_number_pos@lcd_ret lcd_ret `uc  1 a 1 33 ]
+"295
+[v lcd_send_number_pos@gpio_ret gpio_ret `uc  1 a 1 32 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"289
+[s S100 . 6 `S24 1 lcd_rs 1 0 `S24 1 lcd_en 1 1 `[4]S24 1 lcd_pins 4 2 ]
+[v lcd_send_number_pos@lcd lcd `*.39S100  1 p 2 27 ]
+[v lcd_send_number_pos@row row `uc  1 p 1 29 ]
+[v lcd_send_number_pos@column column `uc  1 p 1 30 ]
+[v lcd_send_number_pos@num num `uc  1 p 1 31 ]
+"291
+[v lcd_send_number_pos@number number `[1]uc  1 s 1 number ]
+"306
+} 0
+"206
+[v _lcd_send_string_pos lcd_send_string_pos `(uc  1 e 1 0 ]
+{
+"210
+[v lcd_send_string_pos@lcd_ret lcd_ret `uc  1 a 1 30 ]
+"209
+[v lcd_send_string_pos@gpio_ret gpio_ret `uc  1 a 1 29 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"206
+[s S100 . 6 `S24 1 lcd_rs 1 0 `S24 1 lcd_en 1 1 `[4]S24 1 lcd_pins 4 2 ]
+[v lcd_send_string_pos@lcd lcd `*.39S100  1 p 2 23 ]
+[v lcd_send_string_pos@row row `uc  1 p 1 25 ]
+[v lcd_send_string_pos@column column `uc  1 p 1 26 ]
+[v lcd_send_string_pos@str str `*.34uc  1 p 2 27 ]
+"221
+} 0
+"177
+[v _lcd_send_string lcd_send_string `(uc  1 e 1 0 ]
+{
+"179
+[v lcd_send_string@ret ret `uc  1 a 1 21 ]
+"181
+[v lcd_send_string@lcd_ret lcd_ret `uc  1 a 1 20 ]
+"180
+[v lcd_send_string@gpio_ret gpio_ret `uc  1 a 1 19 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"177
+[s S100 . 6 `S24 1 lcd_rs 1 0 `S24 1 lcd_en 1 1 `[4]S24 1 lcd_pins 4 2 ]
+[v lcd_send_string@lcd lcd `*.39S100  1 p 2 15 ]
+[v lcd_send_string@str str `*.34uc  1 p 2 17 ]
+"194
+} 0
+"316
+[v _convert_uint8_to_string convert_uint8_to_string `(uc  1 e 1 0 ]
+{
+[v convert_uint8_to_string@value value `uc  1 a 1 wreg ]
+[v convert_uint8_to_string@value value `uc  1 a 1 wreg ]
+[v convert_uint8_to_string@str str `*.39uc  1 p 2 25 ]
+[v convert_uint8_to_string@value value `uc  1 a 1 71 ]
+"326
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[u S3762 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+"13
+[s S3765 _IO_FILE 11 `S3762 1 . 3 0 `i 1 count 2 3 `[2]uc 1 ungetbuf 2 5 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v sprintf@f f `S3765  1 a 11 14 ]
+"12
+[v sprintf@ap ap `[1]*.39v  1 a 2 12 ]
+"9
+[v sprintf@s s `*.39uc  1 p 2 6 ]
+[v sprintf@fmt fmt `*.32Cuc  1 p 2 8 ]
+"23
+} 0
+"1390 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1393
+[v vfprintf@cfmt cfmt `*.32uc  1 a 2 69 ]
+[s S3797 _IO_FILE 0 ]
+"1390
+[v vfprintf@fp fp `*.39S3797  1 p 2 0 ]
+[v vfprintf@fmt fmt `*.32Cuc  1 p 2 2 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 4 ]
+"1404
+} 0
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+{
+"696
+[v vfpfcnvrt@ll ll `o  1 a 8 61 ]
+[s S3797 _IO_FILE 0 ]
+"692
+[v vfpfcnvrt@fp fp `*.39S3797  1 p 2 53 ]
+[v vfpfcnvrt@fmt fmt `*.39*.32uc  1 p 2 55 ]
+[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 57 ]
+"1387
+} 0
+"287
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+{
+"290
+[v dtoa@n n `o  1 a 8 43 ]
+"289
+[v dtoa@i i `i  1 a 2 51 ]
+[v dtoa@s s `i  1 a 2 41 ]
+[v dtoa@w w `i  1 a 2 39 ]
+[v dtoa@p p `i  1 a 2 37 ]
+[s S3797 _IO_FILE 0 ]
+"287
+[v dtoa@fp fp `*.39S3797  1 p 2 17 ]
+[v dtoa@d d `o  1 p 8 19 ]
+"328
+} 0
+"72
+[v _pad pad `(i  1 s 2 pad ]
+{
+"74
+[v pad@w w `i  1 a 2 15 ]
+[v pad@i i `i  1 a 2 13 ]
+[s S3797 _IO_FILE 0 ]
+"72
+[v pad@fp fp `*.39S3797  1 p 2 7 ]
+[v pad@buf buf `*.39uc  1 p 2 9 ]
+[v pad@p p `i  1 p 2 11 ]
+"95
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.39Cuc  1 a 2 40 ]
+"5
+[v strlen@s s `*.39Cuc  1 p 2 38 ]
+"12
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v fputs@i i `i  1 a 2 5 ]
+"10
+[v fputs@c c `uc  1 a 1 4 ]
+"8
+[v fputs@s s `*.39Cuc  1 p 2 0 ]
+[u S3762 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S3765 _IO_FILE 11 `S3762 1 . 3 0 `i 1 count 2 3 `[2]uc 1 ungetbuf 2 5 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputs@fp fp `*.39S3765  1 p 2 2 ]
+"19
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 38 ]
+[u S3762 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S3765 _IO_FILE 11 `S3762 1 . 3 0 `i 1 count 2 3 `[2]uc 1 ungetbuf 2 5 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputc@fp fp `*.39S3765  1 p 2 40 ]
+"24
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+"9
+} 0
+"1 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 40 ]
+"4
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+{
+"12
+[v ___aomod@sign sign `uc  1 a 1 39 ]
+[v ___aomod@counter counter `uc  1 a 1 38 ]
+"9
+[v ___aomod@dividend dividend `o  1 p 8 0 ]
+[v ___aomod@divisor divisor `o  1 p 8 8 ]
+"36
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+{
+"12
+[v ___aodiv@quotient quotient `o  1 a 8 40 ]
+"13
+[v ___aodiv@sign sign `uc  1 a 1 39 ]
+[v ___aodiv@counter counter `uc  1 a 1 38 ]
+"9
+[v ___aodiv@dividend dividend `o  1 p 8 0 ]
+[v ___aodiv@divisor divisor `o  1 p 8 8 ]
+"43
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+{
+"6
+[v memset@s s `*.39uc  1 a 2 2 ]
+"7
+[v memset@k k `ui  1 a 2 0 ]
+"4
+[v memset@dest dest `*.39v  1 p 2 38 ]
+[v memset@c c `i  1 p 2 40 ]
+[v memset@n n `ui  1 p 2 42 ]
+"90
+} 0
+"151 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\ECUAL/LCD/lcd.c
+[v _lcd_send_char_data_pos lcd_send_char_data_pos `(uc  1 e 1 0 ]
+{
+"153
+[v lcd_send_char_data_pos@ret ret `uc  1 a 1 30 ]
+"155
+[v lcd_send_char_data_pos@lcd_ret lcd_ret `uc  1 a 1 29 ]
+"154
+[v lcd_send_char_data_pos@gpio_ret gpio_ret `uc  1 a 1 28 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"151
+[s S100 . 6 `S24 1 lcd_rs 1 0 `S24 1 lcd_en 1 1 `[4]S24 1 lcd_pins 4 2 ]
+[v lcd_send_char_data_pos@lcd lcd `*.39S100  1 p 2 23 ]
+[v lcd_send_char_data_pos@row row `uc  1 p 1 25 ]
+[v lcd_send_char_data_pos@column column `uc  1 p 1 26 ]
+[v lcd_send_char_data_pos@data data `uc  1 p 1 27 ]
+"166
+} 0
+"400
+[v _lcd_set_curser lcd_set_curser `(uc  1 s 1 lcd_set_curser ]
+{
+"404
+[v lcd_set_curser@lcd_ret lcd_ret `uc  1 a 1 22 ]
+"403
+[v lcd_set_curser@gpio_ret gpio_ret `uc  1 a 1 21 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"400
+[s S100 . 6 `S24 1 lcd_rs 1 0 `S24 1 lcd_en 1 1 `[4]S24 1 lcd_pins 4 2 ]
+[v lcd_set_curser@lcd lcd `*.39S100  1 p 2 15 ]
+[v lcd_set_curser@row row `uc  1 p 1 17 ]
+[v lcd_set_curser@column column `uc  1 p 1 18 ]
+"422
+} 0
+"115
+[v _lcd_send_char_data lcd_send_char_data `(uc  1 e 1 0 ]
+{
+"117
+[v lcd_send_char_data@ret ret `uc  1 a 1 14 ]
+"119
+[v lcd_send_char_data@lcd_ret lcd_ret `uc  1 a 1 13 ]
+"118
+[v lcd_send_char_data@gpio_ret gpio_ret `uc  1 a 1 12 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"115
+[s S100 . 6 `S24 1 lcd_rs 1 0 `S24 1 lcd_en 1 1 `[4]S24 1 lcd_pins 4 2 ]
+[v lcd_send_char_data@lcd lcd `*.39S100  1 p 2 9 ]
+[v lcd_send_char_data@data data `uc  1 p 1 11 ]
+"140
+} 0
+"21 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\ECUAL/RealTimeClockDS1307/RealTimeClockDS1307.c
+[v _convert_BCD_to_int convert_BCD_to_int `(v  1 e 1 0 ]
+{
+[v convert_BCD_to_int@BCD_num BCD_num `uc  1 a 1 wreg ]
+"22
+[v convert_BCD_to_int@ones ones `uc  1 a 1 44 ]
+[v convert_BCD_to_int@tens tens `uc  1 a 1 43 ]
+"21
+[v convert_BCD_to_int@BCD_num BCD_num `uc  1 a 1 wreg ]
+[v convert_BCD_to_int@int_num int_num `*.39uc  1 p 2 38 ]
+[v convert_BCD_to_int@BCD_num BCD_num `uc  1 a 1 42 ]
+"48
+} 0
+"41 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\ECUAL/buzzer/buzzer.c
+[v _buzzer_on buzzer_on `(uc  1 e 1 0 ]
+{
+"44
+[v buzzer_on@gpio_ret gpio_ret `uc  1 a 1 2 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"41
+[s S32 . 2 `S24 1 buzzer_pin 1 0 `E3030 1 buzzer_state 1 1 ]
+[v buzzer_on@buzzer buzzer `*.39S32  1 p 2 0 ]
+"55
+} 0
+"65
+[v _buzzer_off buzzer_off `(uc  1 e 1 0 ]
+{
+"68
+[v buzzer_off@gpio_ret gpio_ret `uc  1 a 1 2 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"65
+[s S32 . 2 `S24 1 buzzer_pin 1 0 `E3030 1 buzzer_state 1 1 ]
+[v buzzer_off@buzzer buzzer `*.39S32  1 p 2 0 ]
+"79
+} 0
+"59 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\mcc_generated_files/init.c
+[v __Initialize _Initialize `(v  1 e 1 0 ]
+{
+"69
+} 0
+"30 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\ECUAL/LCD/lcd.c
+[v _lcd_init lcd_init `(uc  1 e 1 0 ]
+{
+"34
+[v lcd_init@lcd_ret lcd_ret `uc  1 a 1 21 ]
+"35
+[v lcd_init@pins_counter pins_counter `uc  1 a 1 20 ]
+"33
+[v lcd_init@gpio_ret gpio_ret `uc  1 a 1 19 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"30
+[s S100 . 6 `S24 1 lcd_rs 1 0 `S24 1 lcd_en 1 1 `[4]S24 1 lcd_pins 4 2 ]
+[v lcd_init@lcd lcd `*.39S100  1 p 2 15 ]
+"67
+} 0
+"78
+[v _lcd_send_command lcd_send_command `(uc  1 e 1 0 ]
+{
+"80
+[v lcd_send_command@ret ret `uc  1 a 1 14 ]
+"82
+[v lcd_send_command@lcd_ret lcd_ret `uc  1 a 1 13 ]
+"81
+[v lcd_send_command@gpio_ret gpio_ret `uc  1 a 1 12 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"78
+[s S100 . 6 `S24 1 lcd_rs 1 0 `S24 1 lcd_en 1 1 `[4]S24 1 lcd_pins 4 2 ]
+[v lcd_send_command@lcd lcd `*.39S100  1 p 2 9 ]
+[v lcd_send_command@command command `uc  1 p 1 11 ]
+"104
+} 0
+"376
+[v _lcd_send_nbits lcd_send_nbits `(uc  1 s 1 lcd_send_nbits ]
+{
+"378
+[v lcd_send_nbits@pin_counter pin_counter `uc  1 a 1 8 ]
+"379
+[v lcd_send_nbits@ret ret `uc  1 a 1 7 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"376
+[s S100 . 6 `S24 1 lcd_rs 1 0 `S24 1 lcd_en 1 1 `[4]S24 1 lcd_pins 4 2 ]
+[v lcd_send_nbits@lcd lcd `*.39S100  1 p 2 0 ]
+[v lcd_send_nbits@data_or_command data_or_command `uc  1 p 1 2 ]
+"386
+} 0
+"388
+[v _lcd_send_enable lcd_send_enable `(uc  1 s 1 lcd_send_enable ]
+{
+"391
+[v lcd_send_enable@gpio_ret gpio_ret `uc  1 a 1 2 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"388
+[s S100 . 6 `S24 1 lcd_rs 1 0 `S24 1 lcd_en 1 1 `[4]S24 1 lcd_pins 4 2 ]
+[v lcd_send_enable@lcd lcd `*.39S100  1 p 2 0 ]
+"397
+} 0
+"57 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/INTERRUPT/mcal_external_interrupt.c
+[v _interrupt_INTx_init interrupt_INTx_init `(uc  1 e 1 0 ]
+{
+"59
+[v interrupt_INTx_init@ret ret `uc  1 a 1 10 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"57
+[s S1234 . 6 `*.37(v 1 EXT_InterruptHandler 2 0 `S24 1 INTx_pin 1 2 `E3034 1 edge 1 3 `E3038 1 source 1 4 `E3030 1 priority 1 5 ]
+[v interrupt_INTx_init@_interrupt _interrupt `*.39S1234  1 p 2 8 ]
+"85
+} 0
+"342
+[v _interrupt_INTx_pin_init interrupt_INTx_pin_init `(uc  1 s 1 interrupt_INTx_pin_init ]
+{
+"344
+[v interrupt_INTx_pin_init@ret ret `uc  1 a 1 7 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"342
+[s S1234 . 6 `*.37(v 1 EXT_InterruptHandler 2 0 `S24 1 INTx_pin 1 2 `E3034 1 edge 1 3 `E3038 1 source 1 4 `E3030 1 priority 1 5 ]
+[v interrupt_INTx_pin_init@_interrupt _interrupt `*.39S1234  1 p 2 5 ]
+"353
+} 0
+"211 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/GPIO/gpio.c
+[v _gpio_pin_input_init gpio_pin_input_init `(uc  1 e 1 0 ]
+{
+"213
+[v gpio_pin_input_init@ret ret `uc  1 a 1 4 ]
+"214
+[v gpio_pin_input_init@gpio_ret gpio_ret `uc  1 a 1 3 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"211
+[v gpio_pin_input_init@pin pin `*.39S24  1 p 2 0 ]
+"224
+} 0
+"139 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/INTERRUPT/mcal_external_interrupt.c
+[v _interrupt_INTx_enable interrupt_INTx_enable `(uc  1 s 1 interrupt_INTx_enable ]
+{
+"141
+[v interrupt_INTx_enable@ret ret `uc  1 a 1 42 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"139
+[s S1234 . 6 `*.37(v 1 EXT_InterruptHandler 2 0 `S24 1 INTx_pin 1 2 `E3034 1 edge 1 3 `E3038 1 source 1 4 `E3030 1 priority 1 5 ]
+[v interrupt_INTx_enable@_interrupt _interrupt `*.39S1234  1 p 2 38 ]
+"190
+} 0
+"304
+[v _interrupt_INTx_edge_init interrupt_INTx_edge_init `(uc  1 s 1 interrupt_INTx_edge_init ]
+{
+"306
+[v interrupt_INTx_edge_init@ret ret `uc  1 a 1 42 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"304
+[s S1234 . 6 `*.37(v 1 EXT_InterruptHandler 2 0 `S24 1 INTx_pin 1 2 `E3034 1 edge 1 3 `E3038 1 source 1 4 `E3030 1 priority 1 5 ]
+[v interrupt_INTx_edge_init@_interrupt _interrupt `*.39S1234  1 p 2 38 ]
+"334
+} 0
+"198
+[v _interrupt_INTx_disable interrupt_INTx_disable `(uc  1 s 1 interrupt_INTx_disable ]
+{
+"200
+[v interrupt_INTx_disable@ret ret `uc  1 a 1 42 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"198
+[s S1234 . 6 `*.37(v 1 EXT_InterruptHandler 2 0 `S24 1 INTx_pin 1 2 `E3034 1 edge 1 3 `E3038 1 source 1 4 `E3030 1 priority 1 5 ]
+[v interrupt_INTx_disable@_interrupt _interrupt `*.39S1234  1 p 2 38 ]
+"225
+} 0
+"233
+[v _interrupt_INTx_clear_flag interrupt_INTx_clear_flag `(uc  1 s 1 interrupt_INTx_clear_flag ]
+{
+"235
+[v interrupt_INTx_clear_flag@ret ret `uc  1 a 1 42 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"233
+[s S1234 . 6 `*.37(v 1 EXT_InterruptHandler 2 0 `S24 1 INTx_pin 1 2 `E3034 1 edge 1 3 `E3038 1 source 1 4 `E3030 1 priority 1 5 ]
+[v interrupt_INTx_clear_flag@_interrupt _interrupt `*.39S1234  1 p 2 38 ]
+"260
+} 0
+"361
+[v _INTx_select_InterruptHandler INTx_select_InterruptHandler `(uc  1 s 1 INTx_select_InterruptHandler ]
+{
+"363
+[v INTx_select_InterruptHandler@ret ret `uc  1 a 1 45 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"361
+[s S1234 . 6 `*.37(v 1 EXT_InterruptHandler 2 0 `S24 1 INTx_pin 1 2 `E3034 1 edge 1 3 `E3038 1 source 1 4 `E3030 1 priority 1 5 ]
+[v INTx_select_InterruptHandler@_interrupt _interrupt `*.39S1234  1 p 2 41 ]
+"385
+} 0
+"433
+[v _INT2_set_InterruptHandler INT2_set_InterruptHandler `(uc  1 s 1 INT2_set_InterruptHandler ]
+{
+"435
+[v INT2_set_InterruptHandler@ret ret `uc  1 a 1 40 ]
+"433
+[v INT2_set_InterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 38 ]
+"445
+} 0
+"413
+[v _INT1_set_InterruptHandler INT1_set_InterruptHandler `(uc  1 s 1 INT1_set_InterruptHandler ]
+{
+"415
+[v INT1_set_InterruptHandler@ret ret `uc  1 a 1 40 ]
+"413
+[v INT1_set_InterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 38 ]
+"425
+} 0
+"393
+[v _INT0_set_InterruptHandler INT0_set_InterruptHandler `(uc  1 s 1 INT0_set_InterruptHandler ]
+{
+"395
+[v INT0_set_InterruptHandler@ret ret `uc  1 a 1 40 ]
+"393
+[v INT0_set_InterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 38 ]
+"405
+} 0
+"17 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\ECUAL/buzzer/buzzer.c
+[v _buzzer_init buzzer_init `(uc  1 e 1 0 ]
+{
+"20
+[v buzzer_init@gpio_ret gpio_ret `uc  1 a 1 7 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"17
+[s S32 . 2 `S24 1 buzzer_pin 1 0 `E3030 1 buzzer_state 1 1 ]
+[v buzzer_init@buzzer buzzer `*.39S32  1 p 2 5 ]
+"31
+} 0
+"161 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/GPIO/gpio.c
+[v _gpio_pin_output_low_init gpio_pin_output_low_init `(uc  1 e 1 0 ]
+{
+"163
+[v gpio_pin_output_low_init@ret ret `uc  1 a 1 4 ]
+"164
+[v gpio_pin_output_low_init@gpio_ret gpio_ret `uc  1 a 1 3 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"161
+[v gpio_pin_output_low_init@pin pin `*.39S24  1 p 2 0 ]
+"175
+} 0
+"81
+[v _gpio_pin_logic_write gpio_pin_logic_write `(uc  1 e 1 0 ]
+{
+"83
+[v gpio_pin_logic_write@ret ret `uc  1 a 1 47 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"81
+[v gpio_pin_logic_write@pin pin `*.39S24  1 p 2 38 ]
+[v gpio_pin_logic_write@pin_logic pin_logic `E2965  1 p 1 40 ]
+"105
+} 0
+"23
+[v _gpio_pin_direction_init gpio_pin_direction_init `(uc  1 e 1 0 ]
+{
+"25
+[v gpio_pin_direction_init@ret ret `uc  1 a 1 47 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"23
+[v gpio_pin_direction_init@pin pin `*.39S24  1 p 2 38 ]
+[v gpio_pin_direction_init@pin_direction pin_direction `E2969  1 p 1 40 ]
+"47
+} 0
+"167 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\mcc_generated_files/i2c_master.c
+[v _I2C_Initialize I2C_Initialize `(v  1 e 1 0 ]
+{
+"174
+} 0
+"24 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/USART/usart.c
+[v _EUSART_ASYNC_Init EUSART_ASYNC_Init `(uc  1 e 1 0 ]
+{
+[s S1617 . 2 `E3030 1 usart_tx_int_priority 1 0 `uc 1 usart_tx_enable 1 1 :1:0 
+`uc 1 usart_tx_interrupt_enable 1 1 :1:1 
+`uc 1 usart_tx_9bit_enable 1 1 :1:2 
+`uc 1 usart_tx_reserved 1 1 :5:3 
+]
+[s S1623 . 2 `E3030 1 usart_rx_int_priority 1 0 `uc 1 usart_rx_enable 1 1 :1:0 
+`uc 1 usart_rx_interrupt_enable 1 1 :1:1 
+`uc 1 usart_rx_9bit_enable 1 1 :1:2 
+`uc 1 usart_rx_reserved 1 1 :5:3 
+]
+[s S1629 . 1 `uc 1 usart_tx_reserved 1 0 :6:0 
+`uc 1 usart_ferr 1 0 :1:6 
+`uc 1 usart_oerr 1 0 :1:7 
+]
+[u S1633 . 1 `S1629 1 . 1 0 `uc 1 status 1 0 ]
+[s S1640 . 16 `ui 1 baudrate 2 0 `E3034 1 baudrate_gen_gonfig 1 2 `S1617 1 usart_tx_cfg 2 3 `S1623 1 usart_rx_cfg 2 5 `S1633 1 error_status 1 7 `*.37(v 1 EUSART_TxDefaultInterruptHandler 2 8 `*.37(v 1 EUSART_RxDefaultInterruptHandler 2 10 `*.37(v 1 EUSART_FramingErrorHandler 2 12 `*.37(v 1 EUSART_OverrunErrorHandler 2 14 ]
+[v EUSART_ASYNC_Init@_eusart _eusart `*.39CS1640  1 p 2 59 ]
+"42
+} 0
+"136
+[v _EUSART_Baud_Rate_Calculation EUSART_Baud_Rate_Calculation `(v  1 s 1 EUSART_Baud_Rate_Calculation ]
+{
+"138
+[v EUSART_Baud_Rate_Calculation@Baud_Rate_Temp Baud_Rate_Temp `f  1 a 4 51 ]
+[s S1617 . 2 `E3030 1 usart_tx_int_priority 1 0 `uc 1 usart_tx_enable 1 1 :1:0 
+`uc 1 usart_tx_interrupt_enable 1 1 :1:1 
+`uc 1 usart_tx_9bit_enable 1 1 :1:2 
+`uc 1 usart_tx_reserved 1 1 :5:3 
+]
+"136
+[s S1623 . 2 `E3030 1 usart_rx_int_priority 1 0 `uc 1 usart_rx_enable 1 1 :1:0 
+`uc 1 usart_rx_interrupt_enable 1 1 :1:1 
+`uc 1 usart_rx_9bit_enable 1 1 :1:2 
+`uc 1 usart_rx_reserved 1 1 :5:3 
+]
+[s S1629 . 1 `uc 1 usart_tx_reserved 1 0 :6:0 
+`uc 1 usart_ferr 1 0 :1:6 
+`uc 1 usart_oerr 1 0 :1:7 
+]
+[u S1633 . 1 `S1629 1 . 1 0 `uc 1 status 1 0 ]
+[s S1640 . 16 `ui 1 baudrate 2 0 `E3034 1 baudrate_gen_gonfig 1 2 `S1617 1 usart_tx_cfg 2 3 `S1623 1 usart_rx_cfg 2 5 `S1633 1 error_status 1 7 `*.37(v 1 EUSART_TxDefaultInterruptHandler 2 8 `*.37(v 1 EUSART_RxDefaultInterruptHandler 2 10 `*.37(v 1 EUSART_FramingErrorHandler 2 12 `*.37(v 1 EUSART_OverrunErrorHandler 2 14 ]
+[v EUSART_Baud_Rate_Calculation@_eusart _eusart `*.39CS1640  1 p 2 47 ]
+"178
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 2 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 1 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 38 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 0 ]
+"44
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 47 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 46 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 38 ]
+"70
+} 0
+"11 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 25 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 18 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 23 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 30 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 29 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 22 ]
+"11
+[v ___fldiv@b b `d  1 p 4 6 ]
+[v ___fldiv@a a `d  1 p 4 10 ]
+"185
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 46 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 45 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 44 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 43 ]
+"10
+[v ___fladd@b b `d  1 p 4 31 ]
+[v ___fladd@a a `d  1 p 4 35 ]
+"237
+} 0
+"181 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/USART/usart.c
+[v _EUSART_ASYNC_TX_Init EUSART_ASYNC_TX_Init `(v  1 s 1 EUSART_ASYNC_TX_Init ]
+{
+[s S1617 . 2 `E3030 1 usart_tx_int_priority 1 0 `uc 1 usart_tx_enable 1 1 :1:0 
+`uc 1 usart_tx_interrupt_enable 1 1 :1:1 
+`uc 1 usart_tx_9bit_enable 1 1 :1:2 
+`uc 1 usart_tx_reserved 1 1 :5:3 
+]
+[s S1623 . 2 `E3030 1 usart_rx_int_priority 1 0 `uc 1 usart_rx_enable 1 1 :1:0 
+`uc 1 usart_rx_interrupt_enable 1 1 :1:1 
+`uc 1 usart_rx_9bit_enable 1 1 :1:2 
+`uc 1 usart_rx_reserved 1 1 :5:3 
+]
+[s S1629 . 1 `uc 1 usart_tx_reserved 1 0 :6:0 
+`uc 1 usart_ferr 1 0 :1:6 
+`uc 1 usart_oerr 1 0 :1:7 
+]
+[u S1633 . 1 `S1629 1 . 1 0 `uc 1 status 1 0 ]
+[s S1640 . 16 `ui 1 baudrate 2 0 `E3034 1 baudrate_gen_gonfig 1 2 `S1617 1 usart_tx_cfg 2 3 `S1623 1 usart_rx_cfg 2 5 `S1633 1 error_status 1 7 `*.37(v 1 EUSART_TxDefaultInterruptHandler 2 8 `*.37(v 1 EUSART_RxDefaultInterruptHandler 2 10 `*.37(v 1 EUSART_FramingErrorHandler 2 12 `*.37(v 1 EUSART_OverrunErrorHandler 2 14 ]
+[v EUSART_ASYNC_TX_Init@_eusart _eusart `*.39CS1640  1 p 2 38 ]
+"220
+} 0
+"221
+[v _EUSART_ASYNC_RX_Init EUSART_ASYNC_RX_Init `(v  1 s 1 EUSART_ASYNC_RX_Init ]
+{
+[s S1617 . 2 `E3030 1 usart_tx_int_priority 1 0 `uc 1 usart_tx_enable 1 1 :1:0 
+`uc 1 usart_tx_interrupt_enable 1 1 :1:1 
+`uc 1 usart_tx_9bit_enable 1 1 :1:2 
+`uc 1 usart_tx_reserved 1 1 :5:3 
+]
+[s S1623 . 2 `E3030 1 usart_rx_int_priority 1 0 `uc 1 usart_rx_enable 1 1 :1:0 
+`uc 1 usart_rx_interrupt_enable 1 1 :1:1 
+`uc 1 usart_rx_9bit_enable 1 1 :1:2 
+`uc 1 usart_rx_reserved 1 1 :5:3 
+]
+[s S1629 . 1 `uc 1 usart_tx_reserved 1 0 :6:0 
+`uc 1 usart_ferr 1 0 :1:6 
+`uc 1 usart_oerr 1 0 :1:7 
+]
+[u S1633 . 1 `S1629 1 . 1 0 `uc 1 status 1 0 ]
+[s S1640 . 16 `ui 1 baudrate 2 0 `E3034 1 baudrate_gen_gonfig 1 2 `S1617 1 usart_tx_cfg 2 3 `S1623 1 usart_rx_cfg 2 5 `S1633 1 error_status 1 7 `*.37(v 1 EUSART_TxDefaultInterruptHandler 2 8 `*.37(v 1 EUSART_RxDefaultInterruptHandler 2 10 `*.37(v 1 EUSART_FramingErrorHandler 2 12 `*.37(v 1 EUSART_OverrunErrorHandler 2 14 ]
+[v EUSART_ASYNC_RX_Init@_eusart _eusart `*.39CS1640  1 p 2 38 ]
+"261
+} 0
+"30 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/ADC/adc.c
+[v _ADC_Init ADC_Init `(uc  1 e 1 0 ]
+{
+[s S454 . 7 `*.37(v 1 ADC_InterruptHandler 2 0 `E3030 1 priority 1 2 `E3049 1 acquisition_time 1 3 `E3059 1 conversion_clock 1 4 `E3034 1 adc_channel 1 5 `uc 1 voltage_reference 1 6 :1:0 
+`uc 1 result_format 1 6 :1:1 
+`uc 1 ADC_Reserved 1 6 :6:2 
+]
+[v ADC_Init@_adc _adc `*.39CS454  1 p 2 41 ]
+"76
+} 0
+"299
+[v _select_result_format select_result_format `(v  1 s 1 select_result_format ]
+{
+[v select_result_format@result_format result_format `uc  1 a 1 wreg ]
+[v select_result_format@result_format result_format `uc  1 a 1 wreg ]
+[v select_result_format@result_format result_format `uc  1 a 1 38 ]
+"306
+} 0
+"311
+[v _configure_voltage_reference configure_voltage_reference `(v  1 s 1 configure_voltage_reference ]
+{
+[v configure_voltage_reference@voltage_reference voltage_reference `uc  1 a 1 wreg ]
+[v configure_voltage_reference@voltage_reference voltage_reference `uc  1 a 1 wreg ]
+[v configure_voltage_reference@voltage_reference voltage_reference `uc  1 a 1 38 ]
+"318
+} 0
+"14 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X/ECUAL/RealTimeClockDS1307/RealTimeClockDS1307.h
+[s S386 . 6 `uc 1 _Hours 1 0 `uc 1 _Minutes 1 1 `uc 1 _Seconds 1 2 `uc 1 _Year 1 3 `uc 1 _Month 1 4 `uc 1 _Day 1 5 ]
+"10 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\ECUAL/RealTimeClockDS1307/RealTimeClockDS1307.c
+[v _RealTimeClockDS1307_Get_Date_Time RealTimeClockDS1307_Get_Date_Time `(S386  1 e 6 0 ]
+{
+"19
+} 0
+"63 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\mcc_generated_files/examples/i2c_master_example.c
+[v _I2C_Read1ByteRegister I2C_Read1ByteRegister `(uc  1 e 1 0 ]
+{
+[v I2C_Read1ByteRegister@address address `uc  1 a 1 wreg ]
+"65
+[v I2C_Read1ByteRegister@returnValue returnValue `uc  1 a 1 9 ]
+"63
+[v I2C_Read1ByteRegister@address address `uc  1 a 1 wreg ]
+[v I2C_Read1ByteRegister@reg reg `uc  1 p 1 47 ]
+"65
+[v I2C_Read1ByteRegister@address address `uc  1 a 1 8 ]
+"75
+} 0
+"91
+[v _I2C_Write1ByteRegister I2C_Write1ByteRegister `(v  1 e 1 0 ]
+{
+[v I2C_Write1ByteRegister@address address `uc  1 a 1 wreg ]
+[v I2C_Write1ByteRegister@address address `uc  1 a 1 wreg ]
+[v I2C_Write1ByteRegister@reg reg `uc  1 p 1 8 ]
+[v I2C_Write1ByteRegister@data data `uc  1 p 1 9 ]
+[v I2C_Write1ByteRegister@address address `uc  1 a 1 47 ]
+"99
+} 0
+"283 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\mcc_generated_files/i2c_master.c
+[v _I2C_SetAddressNackCallback I2C_SetAddressNackCallback `(v  1 e 1 0 ]
+{
+[v I2C_SetAddressNackCallback@cb cb `*.37(E360  1 p 2 43 ]
+[v I2C_SetAddressNackCallback@ptr ptr `*.2v  1 p 2 45 ]
+"286
+} 0
+"176
+[v _I2C_Open I2C_Open `(E355  1 e 1 0 ]
+{
+[v I2C_Open@address address `uc  1 a 1 wreg ]
+"178
+[v I2C_Open@returnValue returnValue `E355  1 a 1 39 ]
+"176
+[v I2C_Open@address address `uc  1 a 1 wreg ]
+"178
+[v I2C_Open@address address `uc  1 a 1 38 ]
+"207
+} 0
+"543
+[v _I2C_MasterOpen I2C_MasterOpen `T(a  1 s 1 I2C_MasterOpen ]
+{
+"555
+} 0
+"251
+[v _I2C_MasterWrite I2C_MasterWrite `(E355  1 e 1 0 ]
+{
+"254
+} 0
+"224
+[v _I2C_MasterOperation I2C_MasterOperation `(E355  1 e 1 0 ]
+{
+[v I2C_MasterOperation@read read `a  1 a 1 wreg ]
+"226
+[v I2C_MasterOperation@returnValue returnValue `E355  1 a 1 7 ]
+"224
+[v I2C_MasterOperation@read read `a  1 a 1 wreg ]
+"226
+[v I2C_MasterOperation@read read `a  1 a 1 6 ]
+"244
+} 0
+"312
+[v _I2C_Poller I2C_Poller `(v  1 s 1 I2C_Poller ]
+{
+"319
+} 0
+"650
+[v _I2C_MasterWaitForEvent I2C_MasterWaitForEvent `T(v  1 s 1 I2C_MasterWaitForEvent ]
+{
+"659
+} 0
+"321
+[v _I2C_MasterFsm I2C_MasterFsm `T(v  1 s 1 I2C_MasterFsm ]
+{
+"330
+} 0
+"500
+[v _I2C_DO_ADDRESS_NACK I2C_DO_ADDRESS_NACK `(E2863  1 s 1 I2C_DO_ADDRESS_NACK ]
+{
+"512
+} 0
+"494
+[v _I2C_DO_RESET I2C_DO_RESET `(E2863  1 s 1 I2C_DO_RESET ]
+{
+"499
+} 0
+"488
+[v _I2C_DO_RX_NACK_RESTART I2C_DO_RX_NACK_RESTART `(E2863  1 s 1 I2C_DO_RX_NACK_RESTART ]
+{
+"492
+} 0
+"482
+[v _I2C_DO_RX_NACK_STOP I2C_DO_RX_NACK_STOP `(E2863  1 s 1 I2C_DO_RX_NACK_STOP ]
+{
+"486
+} 0
+"475
+[v _I2C_DO_RX_ACK I2C_DO_RX_ACK `(E2863  1 s 1 I2C_DO_RX_ACK ]
+{
+"479
+} 0
+"469
+[v _I2C_DO_SEND_STOP I2C_DO_SEND_STOP `(E2863  1 s 1 I2C_DO_SEND_STOP ]
+{
+"473
+} 0
+"463
+[v _I2C_DO_SEND_RESTART I2C_DO_SEND_RESTART `(E2863  1 s 1 I2C_DO_SEND_RESTART ]
+{
+"467
+} 0
+"456
+[v _I2C_DO_SEND_RESTART_WRITE I2C_DO_SEND_RESTART_WRITE `(E2863  1 s 1 I2C_DO_SEND_RESTART_WRITE ]
+{
+"460
+} 0
+"450
+[v _I2C_DO_SEND_RESTART_READ I2C_DO_SEND_RESTART_READ `(E2863  1 s 1 I2C_DO_SEND_RESTART_READ ]
+{
+"454
+} 0
+"402
+[v _I2C_DO_RCEN I2C_DO_RCEN `(E2863  1 s 1 I2C_DO_RCEN ]
+{
+"407
+} 0
+"378
+[v _I2C_DO_RX I2C_DO_RX `(E2863  1 s 1 I2C_DO_RX ]
+{
+"400
+} 0
+"354
+[v _I2C_DO_TX I2C_DO_TX `(E2863  1 s 1 I2C_DO_TX ]
+{
+"376
+} 0
+"347
+[v _I2C_DO_SEND_ADR_WRITE I2C_DO_SEND_ADR_WRITE `(E2863  1 s 1 I2C_DO_SEND_ADR_WRITE ]
+{
+"352
+} 0
+"340
+[v _I2C_DO_SEND_ADR_READ I2C_DO_SEND_ADR_READ `(E2863  1 s 1 I2C_DO_SEND_ADR_READ ]
+{
+"345
+} 0
+"333
+[v _I2C_DO_IDLE I2C_DO_IDLE `(E2863  1 s 1 I2C_DO_IDLE ]
+{
+"338
+} 0
+"409
+[v _I2C_DO_TX_EMPTY I2C_DO_TX_EMPTY `(E2863  1 s 1 I2C_DO_TX_EMPTY ]
+{
+"424
+} 0
+"645
+[v _I2C_MasterSetIrq I2C_MasterSetIrq `T(v  1 s 1 I2C_MasterSetIrq ]
+{
+"648
+} 0
+"598
+[v _I2C_MasterIsNack I2C_MasterIsNack `T(a  1 s 1 I2C_MasterIsNack ]
+{
+"601
+} 0
+"568
+[v _I2C_MasterSendTxData I2C_MasterSendTxData `T(v  1 s 1 I2C_MasterSendTxData ]
+{
+[v I2C_MasterSendTxData@data data `uc  1 a 1 wreg ]
+[v I2C_MasterSendTxData@data data `uc  1 a 1 wreg ]
+"570
+[v I2C_MasterSendTxData@data data `uc  1 a 1 38 ]
+"571
+} 0
+"603
+[v _I2C_MasterSendAck I2C_MasterSendAck `T(v  1 s 1 I2C_MasterSendAck ]
+{
+"607
+} 0
+"563
+[v _I2C_MasterGetRxData I2C_MasterGetRxData `T(uc  1 s 1 I2C_MasterGetRxData ]
+{
+"566
+} 0
+"609
+[v _I2C_MasterSendNack I2C_MasterSendNack `T(v  1 s 1 I2C_MasterSendNack ]
+{
+"613
+} 0
+"583
+[v _I2C_MasterStartRx I2C_MasterStartRx `T(v  1 s 1 I2C_MasterStartRx ]
+{
+"586
+} 0
+"525
+[v _I2C_CallbackReturnReset I2C_CallbackReturnReset `(E360  1 e 1 0 ]
+{
+[v I2C_CallbackReturnReset@funPtr funPtr `*.39v  1 p 2 0 ]
+"528
+} 0
+"520
+[v _I2C_CallbackReturnStop I2C_CallbackReturnStop `(E360  1 e 1 0 ]
+{
+"523
+} 0
+"170 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\mcc_generated_files/examples/i2c_master_example.c
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+{
+[v rdBlkRegCompleteHandler@ptr ptr `*.39v  1 p 2 0 ]
+"175
+} 0
+"156
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+{
+[v wr1RegCompleteHandler@ptr ptr `*.39v  1 p 2 0 ]
+"161
+} 0
+"149
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+{
+[v rd2RegCompleteHandler@ptr ptr `*.39v  1 p 2 0 ]
+"154
+} 0
+"142
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+{
+[v rd1RegCompleteHandler@ptr ptr `*.39v  1 p 2 0 ]
+"147
+} 0
+"163
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+{
+[v wr2RegCompleteHandler@ptr ptr `*.39v  1 p 2 0 ]
+"168
+} 0
+"273 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\mcc_generated_files/i2c_master.c
+[v _I2C_SetDataCompleteCallback I2C_SetDataCompleteCallback `(v  1 e 1 0 ]
+{
+[v I2C_SetDataCompleteCallback@cb cb `*.37(E360  1 p 2 43 ]
+[v I2C_SetDataCompleteCallback@ptr ptr `*.39v  1 p 2 45 ]
+"276
+} 0
+"298
+[v _I2C_SetCallback I2C_SetCallback `(v  1 s 1 I2C_SetCallback ]
+{
+[v I2C_SetCallback@idx idx `E2881  1 a 1 wreg ]
+[v I2C_SetCallback@idx idx `E2881  1 a 1 wreg ]
+[v I2C_SetCallback@cb cb `*.37(E360  1 p 2 38 ]
+[v I2C_SetCallback@ptr ptr `*.39v  1 p 2 40 ]
+"300
+[v I2C_SetCallback@idx idx `E2881  1 a 1 42 ]
+"310
+} 0
+"263
+[v _I2C_SetBuffer I2C_SetBuffer `(v  1 e 1 0 ]
+{
+[v I2C_SetBuffer@buffer buffer `*.39v  1 p 2 38 ]
+[v I2C_SetBuffer@bufferSize bufferSize `ui  1 p 2 40 ]
+"271
+} 0
+"593
+[v _I2C_MasterStop I2C_MasterStop `T(v  1 s 1 I2C_MasterStop ]
+{
+"596
+} 0
+"573
+[v _I2C_MasterEnableRestart I2C_MasterEnableRestart `T(v  1 s 1 I2C_MasterEnableRestart ]
+{
+"576
+} 0
+"588
+[v _I2C_MasterStart I2C_MasterStart `T(v  1 s 1 I2C_MasterStart ]
+{
+"591
+} 0
+"209
+[v _I2C_Close I2C_Close `(E355  1 e 1 0 ]
+{
+"211
+[v I2C_Close@returnValue returnValue `E355  1 a 1 38 ]
+"222
+} 0
+"635
+[v _I2C_MasterDisableIrq I2C_MasterDisableIrq `T(v  1 s 1 I2C_MasterDisableIrq ]
+{
+"638
+} 0
+"557
+[v _I2C_MasterClose I2C_MasterClose `T(v  1 s 1 I2C_MasterClose ]
+{
+"561
+} 0
+"640
+[v _I2C_MasterClearIrq I2C_MasterClearIrq `T(v  1 s 1 I2C_MasterClearIrq ]
+{
+"643
+} 0
+"257 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/ADC/adc.c
+[v _ADC_StartConversion_Interrupt ADC_StartConversion_Interrupt `(uc  1 e 1 0 ]
+{
+"259
+[v ADC_StartConversion_Interrupt@ret ret `uc  1 a 1 46 ]
+[s S454 . 7 `*.37(v 1 ADC_InterruptHandler 2 0 `E3030 1 priority 1 2 `E3049 1 acquisition_time 1 3 `E3059 1 conversion_clock 1 4 `E3034 1 adc_channel 1 5 `uc 1 voltage_reference 1 6 :1:0 
+`uc 1 result_format 1 6 :1:1 
+`uc 1 ADC_Reserved 1 6 :6:2 
+]
+"257
+[v ADC_StartConversion_Interrupt@_adc _adc `*.39CS454  1 p 2 0 ]
+[v ADC_StartConversion_Interrupt@channel channel `E3034  1 p 1 2 ]
+"270
+} 0
+"139
+[v _ADC_StartConversion ADC_StartConversion `(uc  1 e 1 0 ]
+{
+"141
+[v ADC_StartConversion@ret ret `uc  1 a 1 40 ]
+[s S454 . 7 `*.37(v 1 ADC_InterruptHandler 2 0 `E3030 1 priority 1 2 `E3049 1 acquisition_time 1 3 `E3059 1 conversion_clock 1 4 `E3034 1 adc_channel 1 5 `uc 1 voltage_reference 1 6 :1:0 
+`uc 1 result_format 1 6 :1:1 
+`uc 1 ADC_Reserved 1 6 :6:2 
+]
+"139
+[v ADC_StartConversion@_adc _adc `*.39CS454  1 p 2 38 ]
+"151
+} 0
+"114
+[v _ADC_SelectChannel ADC_SelectChannel `(uc  1 e 1 0 ]
+{
+"116
+[v ADC_SelectChannel@ret ret `uc  1 a 1 45 ]
+[s S454 . 7 `*.37(v 1 ADC_InterruptHandler 2 0 `E3030 1 priority 1 2 `E3049 1 acquisition_time 1 3 `E3059 1 conversion_clock 1 4 `E3034 1 adc_channel 1 5 `uc 1 voltage_reference 1 6 :1:0 
+`uc 1 result_format 1 6 :1:1 
+`uc 1 ADC_Reserved 1 6 :6:2 
+]
+"114
+[v ADC_SelectChannel@_adc _adc `*.39CS454  1 p 2 41 ]
+[v ADC_SelectChannel@channel channel `E3034  1 p 1 43 ]
+"127
+} 0
+"276
+[v _adc_input_channel_port_configure adc_input_channel_port_configure `(v  1 s 1 adc_input_channel_port_configure ]
+{
+[v adc_input_channel_port_configure@channel channel `E3034  1 a 1 wreg ]
+[v adc_input_channel_port_configure@channel channel `E3034  1 a 1 wreg ]
+[v adc_input_channel_port_configure@channel channel `E3034  1 a 1 40 ]
+"294
+} 0
+"91 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/INTERRUPT/mcall_interrupt_manager.c
+[v _InterruptManager InterruptManager `IIH(v  1 e 1 0 ]
+{
+"160
+} 0
+"526 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/INTERRUPT/mcal_external_interrupt.c
+[v _RB7_ISR RB7_ISR `(v  1 e 1 0 ]
+{
+[v RB7_ISR@RB7_Source RB7_Source `uc  1 a 1 wreg ]
+[v RB7_ISR@RB7_Source RB7_Source `uc  1 a 1 wreg ]
+"528
+[v RB7_ISR@RB7_Source RB7_Source `uc  1 a 1 0 ]
+"536
+} 0
+"511
+[v _RB6_ISR RB6_ISR `(v  1 e 1 0 ]
+{
+[v RB6_ISR@RB6_Source RB6_Source `uc  1 a 1 wreg ]
+[v RB6_ISR@RB6_Source RB6_Source `uc  1 a 1 wreg ]
+"513
+[v RB6_ISR@RB6_Source RB6_Source `uc  1 a 1 0 ]
+"521
+} 0
+"496
+[v _RB5_ISR RB5_ISR `(v  1 e 1 0 ]
+{
+[v RB5_ISR@RB5_Source RB5_Source `uc  1 a 1 wreg ]
+[v RB5_ISR@RB5_Source RB5_Source `uc  1 a 1 wreg ]
+"498
+[v RB5_ISR@RB5_Source RB5_Source `uc  1 a 1 0 ]
+"506
+} 0
+"481
+[v _RB4_ISR RB4_ISR `(v  1 e 1 0 ]
+{
+[v RB4_ISR@RB4_Source RB4_Source `uc  1 a 1 wreg ]
+[v RB4_ISR@RB4_Source RB4_Source `uc  1 a 1 wreg ]
+"483
+[v RB4_ISR@RB4_Source RB4_Source `uc  1 a 1 0 ]
+"491
+} 0
+"107
+[v _INT2_ISR INT2_ISR `(v  1 e 1 0 ]
+{
+"112
+} 0
+"98
+[v _INT1_ISR INT1_ISR `(v  1 e 1 0 ]
+{
+"103
+} 0
+"89
+[v _INT0_ISR INT0_ISR `(v  1 e 1 0 ]
+{
+"94
+} 0
+"45 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\app.c
+[v _APP_INT1_ISR APP_INT1_ISR `(v  1 e 1 0 ]
+{
+"77
+} 0
+"23
+[v _APP_INT0_ISR APP_INT0_ISR `(v  1 e 1 0 ]
+{
+"43
+} 0
+"79
+[v _APP_INT2_ISR APP_INT2_ISR `(v  1 e 1 0 ]
+{
+"89
+} 0
+"14 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X/ECUAL/RealTimeClockDS1307/RealTimeClockDS1307.h
+[s S386 . 6 `uc 1 _Hours 1 0 `uc 1 _Minutes 1 1 `uc 1 _Seconds 1 2 `uc 1 _Year 1 3 `uc 1 _Month 1 4 `uc 1 _Day 1 5 ]
+"10 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\ECUAL/RealTimeClockDS1307/RealTimeClockDS1307.c
+[v i2_RealTimeClockDS1307_Get_Date_Time RealTimeClockDS1307_Get_Date_Time `(S386  1 e 6 0 ]
+{
+"19
+} 0
+"63 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\mcc_generated_files/examples/i2c_master_example.c
+[v i2_I2C_Read1ByteRegister I2C_Read1ByteRegister `(uc  1 e 1 0 ]
+{
+[v i2I2C_Read1ByteRegister@address address `uc  1 a 1 wreg ]
+"65
+[v i2I2C_Read1ByteRegister@returnValue returnValue `uc  1 a 1 19 ]
+"63
+[v i2I2C_Read1ByteRegister@address address `uc  1 a 1 wreg ]
+[v i2I2C_Read1ByteRegister@reg reg `uc  1 p 1 17 ]
+"65
+[v i2I2C_Read1ByteRegister@address address `uc  1 a 1 18 ]
+"75
+} 0
+"91
+[v i2_I2C_Write1ByteRegister I2C_Write1ByteRegister `(v  1 e 1 0 ]
+{
+[v i2I2C_Write1ByteRegister@address address `uc  1 a 1 wreg ]
+[v i2I2C_Write1ByteRegister@address address `uc  1 a 1 wreg ]
+[v i2I2C_Write1ByteRegister@reg reg `uc  1 p 1 17 ]
+[v i2I2C_Write1ByteRegister@data data `uc  1 p 1 18 ]
+[v i2I2C_Write1ByteRegister@address address `uc  1 a 1 19 ]
+"99
+} 0
+"283 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\mcc_generated_files/i2c_master.c
+[v i2_I2C_SetAddressNackCallback I2C_SetAddressNackCallback `(v  1 e 1 0 ]
+{
+[v i2I2C_SetAddressNackCallback@cb cb `*.37(E360  1 p 2 5 ]
+[v i2I2C_SetAddressNackCallback@ptr ptr `*.2v  1 p 2 7 ]
+"286
+} 0
+"176
+[v i2_I2C_Open I2C_Open `(E355  1 e 1 0 ]
+{
+[v i2I2C_Open@address address `uc  1 a 1 wreg ]
+"178
+[v i2I2C_Open@returnValue returnValue `E355  1 a 1 1 ]
+"176
+[v i2I2C_Open@address address `uc  1 a 1 wreg ]
+"178
+[v i2I2C_Open@address address `uc  1 a 1 0 ]
+"207
+} 0
+"543
+[v i2_I2C_MasterOpen I2C_MasterOpen `T(a  1 s 1 i2_I2C_MasterOpen ]
+{
+"555
+} 0
+"251
+[v i2_I2C_MasterWrite I2C_MasterWrite `(E355  1 e 1 0 ]
+{
+"254
+} 0
+"224
+[v i2_I2C_MasterOperation I2C_MasterOperation `(E355  1 e 1 0 ]
+{
+[v i2I2C_MasterOperation@read read `a  1 a 1 wreg ]
+"226
+[v i2I2C_MasterOperation@returnValue returnValue `E355  1 a 1 16 ]
+"224
+[v i2I2C_MasterOperation@read read `a  1 a 1 wreg ]
+"226
+[v i2I2C_MasterOperation@read read `a  1 a 1 15 ]
+"244
+} 0
+"312
+[v i2_I2C_Poller I2C_Poller `(v  1 s 1 i2_I2C_Poller ]
+{
+"319
+} 0
+"650
+[v i2_I2C_MasterWaitForEvent I2C_MasterWaitForEvent `T(v  1 s 1 i2_I2C_MasterWaitForEvent ]
+{
+"659
+} 0
+"321
+[v i2_I2C_MasterFsm I2C_MasterFsm `T(v  1 s 1 i2_I2C_MasterFsm ]
+{
+"330
+} 0
+"500
+[v i2_I2C_DO_ADDRESS_NACK I2C_DO_ADDRESS_NACK `(E2863  1 s 1 i2_I2C_DO_ADDRESS_NACK ]
+{
+"512
+} 0
+"494
+[v i2_I2C_DO_RESET I2C_DO_RESET `(E2863  1 s 1 i2_I2C_DO_RESET ]
+{
+"499
+} 0
+"488
+[v i2_I2C_DO_RX_NACK_RESTART I2C_DO_RX_NACK_RESTART `(E2863  1 s 1 i2_I2C_DO_RX_NACK_RESTART ]
+{
+"492
+} 0
+"482
+[v i2_I2C_DO_RX_NACK_STOP I2C_DO_RX_NACK_STOP `(E2863  1 s 1 i2_I2C_DO_RX_NACK_STOP ]
+{
+"486
+} 0
+"475
+[v i2_I2C_DO_RX_ACK I2C_DO_RX_ACK `(E2863  1 s 1 i2_I2C_DO_RX_ACK ]
+{
+"479
+} 0
+"469
+[v i2_I2C_DO_SEND_STOP I2C_DO_SEND_STOP `(E2863  1 s 1 i2_I2C_DO_SEND_STOP ]
+{
+"473
+} 0
+"463
+[v i2_I2C_DO_SEND_RESTART I2C_DO_SEND_RESTART `(E2863  1 s 1 i2_I2C_DO_SEND_RESTART ]
+{
+"467
+} 0
+"456
+[v i2_I2C_DO_SEND_RESTART_WRITE I2C_DO_SEND_RESTART_WRITE `(E2863  1 s 1 i2_I2C_DO_SEND_RESTART_WRITE ]
+{
+"460
+} 0
+"450
+[v i2_I2C_DO_SEND_RESTART_READ I2C_DO_SEND_RESTART_READ `(E2863  1 s 1 i2_I2C_DO_SEND_RESTART_READ ]
+{
+"454
+} 0
+"402
+[v i2_I2C_DO_RCEN I2C_DO_RCEN `(E2863  1 s 1 i2_I2C_DO_RCEN ]
+{
+"407
+} 0
+"378
+[v i2_I2C_DO_RX I2C_DO_RX `(E2863  1 s 1 i2_I2C_DO_RX ]
+{
+"400
+} 0
+"354
+[v i2_I2C_DO_TX I2C_DO_TX `(E2863  1 s 1 i2_I2C_DO_TX ]
+{
+"376
+} 0
+"347
+[v i2_I2C_DO_SEND_ADR_WRITE I2C_DO_SEND_ADR_WRITE `(E2863  1 s 1 i2_I2C_DO_SEND_ADR_WRITE ]
+{
+"352
+} 0
+"340
+[v i2_I2C_DO_SEND_ADR_READ I2C_DO_SEND_ADR_READ `(E2863  1 s 1 i2_I2C_DO_SEND_ADR_READ ]
+{
+"345
+} 0
+"333
+[v i2_I2C_DO_IDLE I2C_DO_IDLE `(E2863  1 s 1 i2_I2C_DO_IDLE ]
+{
+"338
+} 0
+"409
+[v i2_I2C_DO_TX_EMPTY I2C_DO_TX_EMPTY `(E2863  1 s 1 i2_I2C_DO_TX_EMPTY ]
+{
+"424
+} 0
+"645
+[v i2_I2C_MasterSetIrq I2C_MasterSetIrq `T(v  1 s 1 i2_I2C_MasterSetIrq ]
+{
+"648
+} 0
+"598
+[v i2_I2C_MasterIsNack I2C_MasterIsNack `T(a  1 s 1 i2_I2C_MasterIsNack ]
+{
+"601
+} 0
+"568
+[v i2_I2C_MasterSendTxData I2C_MasterSendTxData `T(v  1 s 1 i2_I2C_MasterSendTxData ]
+{
+[v i2I2C_MasterSendTxData@data data `uc  1 a 1 wreg ]
+[v i2I2C_MasterSendTxData@data data `uc  1 a 1 wreg ]
+"570
+[v i2I2C_MasterSendTxData@data data `uc  1 a 1 0 ]
+"571
+} 0
+"603
+[v i2_I2C_MasterSendAck I2C_MasterSendAck `T(v  1 s 1 i2_I2C_MasterSendAck ]
+{
+"607
+} 0
+"563
+[v i2_I2C_MasterGetRxData I2C_MasterGetRxData `T(uc  1 s 1 i2_I2C_MasterGetRxData ]
+{
+"566
+} 0
+"609
+[v i2_I2C_MasterSendNack I2C_MasterSendNack `T(v  1 s 1 i2_I2C_MasterSendNack ]
+{
+"613
+} 0
+"583
+[v i2_I2C_MasterStartRx I2C_MasterStartRx `T(v  1 s 1 i2_I2C_MasterStartRx ]
+{
+"586
+} 0
+"525
+[v i2_I2C_CallbackReturnReset I2C_CallbackReturnReset `(E360  1 e 1 0 ]
+{
+"528
+} 0
+"520
+[v i2_I2C_CallbackReturnStop I2C_CallbackReturnStop `(E360  1 e 1 0 ]
+{
+"523
+} 0
+"170 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\mcc_generated_files/examples/i2c_master_example.c
+[v i2_rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 i2_rdBlkRegCompleteHandler ]
+{
+[v i2rdBlkRegCompleteHandler@ptr ptr `*.39v  1 p 2 9 ]
+"175
+} 0
+"156
+[v i2_wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 i2_wr1RegCompleteHandler ]
+{
+[v i2wr1RegCompleteHandler@ptr ptr `*.39v  1 p 2 9 ]
+"161
+} 0
+"149
+[v i2_rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 i2_rd2RegCompleteHandler ]
+{
+[v i2rd2RegCompleteHandler@ptr ptr `*.39v  1 p 2 9 ]
+"154
+} 0
+"142
+[v i2_rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 i2_rd1RegCompleteHandler ]
+{
+[v i2rd1RegCompleteHandler@ptr ptr `*.39v  1 p 2 9 ]
+"147
+} 0
+"163
+[v i2_wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 i2_wr2RegCompleteHandler ]
+{
+[v i2wr2RegCompleteHandler@ptr ptr `*.39v  1 p 2 9 ]
+"168
+} 0
+"273 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\mcc_generated_files/i2c_master.c
+[v i2_I2C_SetDataCompleteCallback I2C_SetDataCompleteCallback `(v  1 e 1 0 ]
+{
+[v i2I2C_SetDataCompleteCallback@cb cb `*.37(E360  1 p 2 5 ]
+[v i2I2C_SetDataCompleteCallback@ptr ptr `*.39v  1 p 2 7 ]
+"276
+} 0
+"298
+[v i2_I2C_SetCallback I2C_SetCallback `(v  1 s 1 i2_I2C_SetCallback ]
+{
+[v i2I2C_SetCallback@idx idx `E2881  1 a 1 wreg ]
+[v i2I2C_SetCallback@idx idx `E2881  1 a 1 wreg ]
+[v i2I2C_SetCallback@cb cb `*.37(E360  1 p 2 0 ]
+[v i2I2C_SetCallback@ptr ptr `*.39v  1 p 2 2 ]
+"300
+[v i2I2C_SetCallback@idx idx `E2881  1 a 1 4 ]
+"310
+} 0
+"263
+[v i2_I2C_SetBuffer I2C_SetBuffer `(v  1 e 1 0 ]
+{
+[v i2I2C_SetBuffer@buffer buffer `*.39v  1 p 2 0 ]
+[v i2I2C_SetBuffer@bufferSize bufferSize `ui  1 p 2 2 ]
+"271
+} 0
+"593
+[v i2_I2C_MasterStop I2C_MasterStop `T(v  1 s 1 i2_I2C_MasterStop ]
+{
+"596
+} 0
+"573
+[v i2_I2C_MasterEnableRestart I2C_MasterEnableRestart `T(v  1 s 1 i2_I2C_MasterEnableRestart ]
+{
+"576
+} 0
+"588
+[v i2_I2C_MasterStart I2C_MasterStart `T(v  1 s 1 i2_I2C_MasterStart ]
+{
+"591
+} 0
+"209
+[v i2_I2C_Close I2C_Close `(E355  1 e 1 0 ]
+{
+"211
+[v i2I2C_Close@returnValue returnValue `E355  1 a 1 0 ]
+"222
+} 0
+"635
+[v i2_I2C_MasterDisableIrq I2C_MasterDisableIrq `T(v  1 s 1 i2_I2C_MasterDisableIrq ]
+{
+"638
+} 0
+"557
+[v i2_I2C_MasterClose I2C_MasterClose `T(v  1 s 1 i2_I2C_MasterClose ]
+{
+"561
+} 0
+"640
+[v i2_I2C_MasterClearIrq I2C_MasterClearIrq `T(v  1 s 1 i2_I2C_MasterClearIrq ]
+{
+"643
+} 0
+"50 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\ECUAL/RealTimeClockDS1307/RealTimeClockDS1307.c
+[v _convert_int_to_BCD convert_int_to_BCD `(v  1 e 1 0 ]
+{
+[v convert_int_to_BCD@int_num int_num `uc  1 a 1 wreg ]
+"51
+[v convert_int_to_BCD@h_nipple h_nipple `uc  1 a 1 12 ]
+[v convert_int_to_BCD@l_nipple l_nipple `uc  1 a 1 11 ]
+"50
+[v convert_int_to_BCD@int_num int_num `uc  1 a 1 wreg ]
+[v convert_int_to_BCD@BCD_num BCD_num `*.39uc  1 p 2 8 ]
+[v convert_int_to_BCD@int_num int_num `uc  1 a 1 10 ]
+"77
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 0 ]
+[v ___awmod@divisor divisor `i  1 p 2 2 ]
+"34
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"266 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/USART/usart.c
+[v _EUSART_TX_ISR EUSART_TX_ISR `(v  1 e 1 0 ]
+{
+"271
+} 0
+"276
+[v _EUSART_RX_ISR EUSART_RX_ISR `(v  1 e 1 0 ]
+{
+"281
+} 0
+"322 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/ADC/adc.c
+[v _ADC_ISR ADC_ISR `(v  1 e 1 0 ]
+{
+"327
+} 0
+"91 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\app.c
+[v _MY_ADC_ISR MY_ADC_ISR `(v  1 e 1 0 ]
+{
+"94
+} 0
+"78 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/USART/usart.c
+[v _EUSART_ASYNC_WriteByteNonBlocking EUSART_ASYNC_WriteByteNonBlocking `(uc  1 e 1 0 ]
+{
+[v EUSART_ASYNC_WriteByteNonBlocking@_data _data `uc  1 a 1 wreg ]
+[v EUSART_ASYNC_WriteByteNonBlocking@_data _data `uc  1 a 1 wreg ]
+[v EUSART_ASYNC_WriteByteNonBlocking@_data _data `uc  1 a 1 0 ]
+"92
+} 0
+"195 C:\study\Embedded Systems Diploma\projects\smart home\smart home masterMCU.X\MCAL/ADC/adc.c
+[v _ADC_GetConversionResult ADC_GetConversionResult `(uc  1 e 1 0 ]
+{
+[s S454 . 7 `*.37(v 1 ADC_InterruptHandler 2 0 `E3030 1 priority 1 2 `E3049 1 acquisition_time 1 3 `E3059 1 conversion_clock 1 4 `E3034 1 adc_channel 1 5 `uc 1 voltage_reference 1 6 :1:0 
+`uc 1 result_format 1 6 :1:1 
+`uc 1 ADC_Reserved 1 6 :6:2 
+]
+[v ADC_GetConversionResult@_adc _adc `*.39CS454  1 p 2 0 ]
+[v ADC_GetConversionResult@conversion_result conversion_result `*.39us  1 p 2 2 ]
+"212
+} 0

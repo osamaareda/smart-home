@@ -1,0 +1,25 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[v F73 `(v ~T0 @X0 0 tf ]
+[v F75 `(v ~T0 @X0 0 tf ]
+[v F77 `(v ~T0 @X0 0 tf ]
+[v F79 `(v ~T0 @X0 0 tf ]
+[v F81 `(v ~T0 @X0 0 tf ]
+[v F83 `(v ~T0 @X0 0 tf ]
+"135 MCAL/INTERRUPT/Untitled-2.c
+[; ;MCAL/INTERRUPT/Untitled-2.c: 135: void (*MSSP_InterruptHandler)(void);
+[v _MSSP_InterruptHandler `*F73 ~T0 @X0 1 e ]
+"136
+[; ;MCAL/INTERRUPT/Untitled-2.c: 136: void (*I2C_SlaveRdInterruptHandler)(void);
+[v _I2C_SlaveRdInterruptHandler `*F75 ~T0 @X0 1 e ]
+"137
+[; ;MCAL/INTERRUPT/Untitled-2.c: 137: void (*I2C_SlaveWrInterruptHandler)(void);
+[v _I2C_SlaveWrInterruptHandler `*F77 ~T0 @X0 1 e ]
+"138
+[; ;MCAL/INTERRUPT/Untitled-2.c: 138: void (*I2C_SlaveAddrInterruptHandler)(void);
+[v _I2C_SlaveAddrInterruptHandler `*F79 ~T0 @X0 1 e ]
+"139
+[; ;MCAL/INTERRUPT/Untitled-2.c: 139: void (*I2C_SlaveBusColInterruptHandler)(void);
+[v _I2C_SlaveBusColInterruptHandler `*F81 ~T0 @X0 1 e ]
+"140
+[; ;MCAL/INTERRUPT/Untitled-2.c: 140: void (*I2C_SlaveWrColInterruptHandler)(void);
+[v _I2C_SlaveWrColInterruptHandler `*F83 ~T0 @X0 1 e ]
